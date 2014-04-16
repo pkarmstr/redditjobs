@@ -1,3 +1,7 @@
+"""
+short script to scrape the comments from a post on reddit about people's jobs
+"""
+
 __author__ = 'keelan'
 
 import time
@@ -5,6 +9,9 @@ import praw
 import sys
 import json
 from os.path import join
+
+if len(sys.argv) != 2:
+    sys.exit("usage: python job_finder.py directory")
 
 basedir = sys.argv[1]
 

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1612c3a8-84e4-439c-8b80-7cea3b0c5f1c" name="Default" comment="" />
+    <list default="true" id="1612c3a8-84e4-439c-8b80-7cea3b0c5f1c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/job_finder.py" afterPath="$PROJECT_DIR$/job_finder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="redditjobs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,9 +30,9 @@
       <file leaf-file-name="job_finder.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/job_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="589" selection-end="589" vertical-scroll-proportion="0.5371353" vertical-offset="0" max-vertical-offset="754">
+            <state line="43" column="32" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.7811671" vertical-offset="56" max-vertical-offset="825">
               <folding>
-                <element signature="e#23#34#0" expanded="true" />
+                <element signature="e#110#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,6 +44,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -54,7 +66,7 @@
     <option name="width" value="1260" />
     <option name="height" value="907" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -104,7 +116,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$USER_HOME$/workspace" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -231,6 +252,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1612c3a8-84e4-439c-8b80-7cea3b0c5f1c" name="Default" comment="" />
@@ -276,9 +314,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/job_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="589" selection-end="589" vertical-scroll-proportion="0.5371353" vertical-offset="0" max-vertical-offset="754">
+        <state line="43" column="32" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.7811671" vertical-offset="56" max-vertical-offset="825">
           <folding>
-            <element signature="e#23#34#0" expanded="true" />
+            <element signature="e#110#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
