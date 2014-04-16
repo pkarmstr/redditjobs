@@ -2,6 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1612c3a8-84e4-439c-8b80-7cea3b0c5f1c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-10.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-11.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-12.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-13.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-14.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-15.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-16.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-17.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-18.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-19.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-20.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-21.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-22.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-23.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-24.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-25.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-26.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-27.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-28.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-29.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-30.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-31.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-32.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-33.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-34.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-35.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-36.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-37.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-38.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-39.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-40.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-41.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-42.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-43.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-44.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-45.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-46.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-47.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-48.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-49.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-50.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-51.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-52.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-53.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-54.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-55.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-56.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-57.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-58.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-59.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-60.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-61.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-62.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-63.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-64.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-65.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-66.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-67.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-68.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-69.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-70.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-71.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-72.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-73.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-74.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-75.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-76.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-77.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-78.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-79.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-8.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-80.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-81.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-82.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-83.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comment_data/jobs-9.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs_scraper.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/job_finder.py" afterPath="$PROJECT_DIR$/job_finder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,10 +110,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="job_finder.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="job_finder.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="-0.48185483" vertical-offset="554" max-vertical-offset="1050">
+            <state line="50" column="66" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1050">
               <folding>
                 <element signature="e#110#121#0" expanded="true" />
               </folding>
@@ -37,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobs-2.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment_data/jobs-2.json">
+      <file leaf-file-name="jobs_scraper.log" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jobs_scraper.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23530" selection-start="23530" selection-end="23530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
               <folding />
             </state>
           </provider>
@@ -326,7 +410,11 @@
       <created>1397620381914</created>
       <updated>1397620381914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented saving 1000 comments at a time">
+      <created>1397621880354</created>
+      <updated>1397621880354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,6 +425,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939272" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -346,7 +435,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -364,32 +452,40 @@
     <MESSAGE value="fixed id bug" />
     <MESSAGE value="made comment retrieval limit 1000" />
     <MESSAGE value="fixed renewing dict bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed renewing dict bug" />
+    <MESSAGE value="implemented saving 1000 comments at a time" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented saving 1000 comments at a time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobs_scraper.log">
+    <entry file="file://$PROJECT_DIR$/comment_data/jobs-1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment_data/jobs-2.json">
+    <entry file="file://$PROJECT_DIR$/comment_data/jobs-44.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23530" selection-start="23530" selection-end="23530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/job_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="-0.48185483" vertical-offset="554" max-vertical-offset="1050">
+        <state line="50" column="66" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1050">
           <folding>
             <element signature="e#110#121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_scraper.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
+          <folding />
         </state>
       </provider>
     </entry>

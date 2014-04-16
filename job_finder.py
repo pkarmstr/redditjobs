@@ -41,7 +41,6 @@ while more_comments:
             # we've hit a MoreComments object, no `body` attribute
             all_comments = c.comments()
             more_comments = True
-            all_comments_body = {}
 
         if num_comments%1000 == 0:
             # save every 1000 comments into a separate file
@@ -49,6 +48,7 @@ while more_comments:
             outfile = join(basedir, "jobs-{:d}.json".format(file_i))
             with open(outfile, "w") as f_out:
                 f_out.write(json.dumps(all_comments_body))
+            all_comments_body = {} # clear our "cache" of comments
 
     if all_comments_body:
         # save anything to disk we have left over
