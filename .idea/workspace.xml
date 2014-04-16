@@ -29,10 +29,19 @@
       <file leaf-file-name="job_finder.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/job_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="829" selection-end="829" vertical-scroll-proportion="0.4657258" vertical-offset="309" max-vertical-offset="855">
+            <state line="21" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="-0.48185483" vertical-offset="554" max-vertical-offset="1050">
               <folding>
                 <element signature="e#110#121#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobs-2.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment_data/jobs-2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23530" selection-start="23530" selection-end="23530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -313,19 +322,23 @@
       <created>1397618989688</created>
       <updated>1397618989688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed renewing dict bug">
+      <created>1397620381914</created>
+      <updated>1397620381914</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="52" width="1260" height="907" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939272" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939272" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -350,22 +363,30 @@
     <MESSAGE value="added a little usage and docstring" />
     <MESSAGE value="fixed id bug" />
     <MESSAGE value="made comment retrieval limit 1000" />
-    <option name="LAST_COMMIT_MESSAGE" value="made comment retrieval limit 1000" />
+    <MESSAGE value="fixed renewing dict bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed renewing dict bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/comment_data/jobs-1.json">
+    <entry file="file://$PROJECT_DIR$/jobs_scraper.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/comment_data/jobs-2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23530" selection-start="23530" selection-end="23530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/job_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="829" selection-end="829" vertical-scroll-proportion="0.4657258" vertical-offset="309" max-vertical-offset="855">
+        <state line="21" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="-0.48185483" vertical-offset="554" max-vertical-offset="1050">
           <folding>
             <element signature="e#110#121#0" expanded="true" />
           </folding>
