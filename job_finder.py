@@ -20,7 +20,7 @@ user_agent = "scraping job info from reddit for science"
 
 r = praw.Reddit(user_agent)
 
-jobs_submission = r.get_submission(submission, comment_limit=1000)
+jobs_submission = r.get_submission(submission)
 
 all_comments = jobs_submission.comments
 all_comments_body = {}
@@ -40,10 +40,10 @@ while more_comments:
             all_comments = c.comments()
             file_i += 1
             outfile = join(basedir, "jobs-{:d}.json".format(file_i))
-            all_comments_body = {}
             with open(outfile, "w") as f_out:
                 f_out.write(json.dumps(all_comments_body))
             more_comments = True
+            all_comments_body = {}
 
 with open("jobs_scraper.log", "w") as f_out:
     f_out.write("wrote to {:d} files\n".format(file_i))
