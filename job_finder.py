@@ -33,12 +33,14 @@ while more_comments:
     more_comments = False
     for c in all_comments:
         try:
-            all_comments_body[c.link_id] = c.body
+            all_comments_body[c.id] = c.body
             num_comments += 1
         except AttributeError, e:
+            #we've hit a MoreComments object, no `body` attribute
             all_comments = c.comments()
             file_i += 1
             outfile = join(basedir, "jobs-{:d}.json".format(file_i))
+            all_comments_body = {}
             with open(outfile, "w") as f_out:
                 f_out.write(json.dumps(all_comments_body))
             more_comments = True
