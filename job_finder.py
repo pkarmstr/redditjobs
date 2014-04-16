@@ -42,20 +42,21 @@ while more_comments:
             all_comments = c.comments()
             more_comments = True
 
-        if num_comments%1000 == 0:
+        if num_comments%1000 == 0 and all_comments_body:
+            # occasionally, MoreComments.comments() doesn't return anything?
             # save every 1000 comments into a separate file
             file_i += 1
             outfile = join(basedir, "jobs-{:d}.json".format(file_i))
             with open(outfile, "w") as f_out:
-                f_out.write(json.dumps(all_comments_body))
+                f_out.write(json.dumps(all_comments_body, indent=4))
             all_comments_body = {} # clear our "cache" of comments
 
-    if all_comments_body:
-        # save anything to disk we have left over
-        file_i += 1
-        outfile = join(basedir, "jobs-{:d}.json".format(file_i))
-        with open(outfile, "w") as f_out:
-            f_out.write(json.dumps(all_comments_body))
+if all_comments_body:
+    # save anything to disk we have left over
+    file_i += 1
+    outfile = join(basedir, "jobs-{:d}.json".format(file_i))
+    with open(outfile, "w") as f_out:
+        f_out.write(json.dumps(all_comments_body, indent=4))
 
 
 with open("jobs_scraper.log", "w") as f_out:
