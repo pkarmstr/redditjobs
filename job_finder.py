@@ -20,7 +20,7 @@ user_agent = "scraping job info from reddit for science"
 
 r = praw.Reddit(user_agent)
 
-jobs_submission = r.get_submission(submission)
+jobs_submission = r.get_submission(submission, comment_limit=1000)
 
 all_comments = jobs_submission.comments
 all_comments_body = {}
