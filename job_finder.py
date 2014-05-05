@@ -42,7 +42,7 @@ while more_comments:
             all_comments = c.comments()
             more_comments = True
 
-        if num_comments%1000 == 0 and all_comments_body:
+        if num_comments%10000 == 0 and all_comments_body:
             # occasionally, MoreComments.comments() doesn't return anything?
             # save every 1000 comments into a separate file
             file_i += 1
