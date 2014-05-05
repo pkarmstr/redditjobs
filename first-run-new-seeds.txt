@@ -1,0 +1,16 @@
+and
+lawyer
+doctor
+)
+professor
+,
+translator
+job
+scientist
+student
+year
+surgeon
+developer
+janitor
+teacher
+engineer

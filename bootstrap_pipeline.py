@@ -21,6 +21,14 @@ def postprocess_tokenized_text(tokenized):
                 tokenized[i][j] = re.sub(r"/", r" / ", word)
                 #mutating the list
 
+def read_newline_file(input_file):
+    all_lines = []
+    with open(input_file, "r") as f_in:
+        for line in f_in:
+            line = line.rstrip()
+            all_lines.append(line)
+    return all_lines
+
 class MutualBootStrapper:
 
     def __init__(self, tokenized_data, seeds, patterns=None):
@@ -137,11 +145,42 @@ class MutualBootStrapper:
 
     def save_seeds(self, outfile):
         with open(outfile, "w") as f_out:
-            f_out.write("\n".join(self.seeds))
+            f_out.write("\n".join(s.encode("utf-8") for s in self.seeds))
 
     def save_patterns(self, outfile):
         with open(outfile, "w") as f_out:
-            f_out.write()
+            patterns = []
+            for pattern_index in range(self.pattern_alphabet.size()):
+                patterns.append(" ".join(self.pattern_alphabet.get_label(pattern_index)))
+            f_out.write("\n".join(s.encode("utf-8") for s in patterns))
 
 if __name__ == "__main__":
-    pass
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("json_data", help="a set of data instances in a json format")
+    parser.add_argument("seeds", help="newline separated text file containing seed terms")
+    parser.add_argument("-n", "--num_iterations", type=int)
+    parser.add_argument("-p", "--prefix", help="file name prefix when saving to disk")
+    parser.add_argument("--patterns", help="list of patterns to begin with")
+
+    all_args = parser.parse_args()
+    all_data = json.load(open(all_args.json_data))
+
+    cleaned_data = [nested_tokenize(instance) for _,instance in all_data.iteritems()]
+    seeds = read_newline_file(all_args.seeds)
+
+    if all_args.patterns:
+        patterns = read_newline_file(all_args.patterns)
+    else:
+        patterns = None
+
+    mbs = MutualBootStrapper(cleaned_data, seeds, patterns)
+    mbs.run(all_args.num_iterations)
+
+    file_prefix = all_args.prefix
+
+    mbs.save_seeds("{:s}-new-seeds.txt".format(file_prefix))
+    mbs.save_patterns("{:s}-new-patterns.txt".format(file_prefix))
+
+    print "saved everything"
+
