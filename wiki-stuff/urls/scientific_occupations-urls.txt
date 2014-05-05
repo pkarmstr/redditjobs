@@ -1,0 +1,12 @@
+Educational technologist	/wiki/Educational_technologist
+Engineer	/wiki/Engineer
+Engineering technician	/wiki/Engineering_technician
+Engineering technologist	/wiki/Engineering_technologist
+Computational scientist	/wiki/Computational_scientist
+Mathematician	/wiki/Mathematician
+Statistician	/wiki/Statistician
+scientist	/wiki/Scientist
+Government scientist	/wiki/Government_scientist
+Inventor	/wiki/Inventor
+School science technician	/wiki/School_science_technician
+Science attaché	/wiki/Science_attach%C3%A9

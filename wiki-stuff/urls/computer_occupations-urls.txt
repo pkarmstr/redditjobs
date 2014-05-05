@@ -1,0 +1,13 @@
+Application analyst	/wiki/Application_analyst
+Computer operator	/wiki/Computer_operator
+Computer repair technician	/wiki/Computer_repair_technician
+Computer scientist	/wiki/Computer_scientist
+Database administrator	/wiki/Database_administrator
+Data analyst	/wiki/Data_analyst
+Data scientist	/wiki/Data_scientist
+Network Analyst	/wiki/Network_Analyst
+Programmer	/wiki/Programmer
+Software design	/wiki/Software_design
+Software analyst	/wiki/Software_analyst
+Software quality analyst	/wiki/Software_quality_analyst
+Web developer	/wiki/Web_developer

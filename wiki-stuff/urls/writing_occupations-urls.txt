@@ -1,0 +1,28 @@
+Author	/wiki/Author
+Blogger	/wiki/Blog
+Book coach	/wiki/Book_coach
+Commissioning editor	/wiki/Commissioning_editor
+Copy editor	/wiki/Copy_editor
+Creative consultant	/wiki/Creative_consultant
+Dog writer	/wiki/Dog_writer
+Freelancer	/wiki/Freelancer
+Ghostwriter	/wiki/Ghostwriter
+Griot	/wiki/Griot
+Hack writer	/wiki/Hack_writer
+Infopreneur	/wiki/Infopreneur
+Journalist	/wiki/Journalist
+Literary editor	/wiki/Literary_editor
+Manuscript format	/wiki/Manuscript_format
+Poet	/wiki/Poet
+Polygraph (author)	/wiki/Polygraph_(author)
+Review	/wiki/Review
+Screenwriter	/wiki/Screenwriter
+Scribe	/wiki/Scribe
+Script coordinator	/wiki/Script_coordinator
+Script doctor	/wiki/Script_doctor
+Scrivener	/wiki/Scrivener
+Speechwriter	/wiki/Speechwriter
+Staff writer	/wiki/Staff_writer
+Technical writer	/wiki/Technical_writer
+Website content writer	/wiki/Website_content_writer
+Writer	/wiki/Writer

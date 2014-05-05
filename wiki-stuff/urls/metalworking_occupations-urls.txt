@@ -1,0 +1,52 @@
+Smith	/wiki/Smith_(metalwork)
+metalsmith	/wiki/Metalsmith
+blacksmith	/wiki/Blacksmith
+silversmith	/wiki/Silversmith
+Jeweler	/wiki/Jewellery
+Founder	/wiki/Foundry
+machinist	/wiki/Machinist
+machine tool	/wiki/Machine_tool
+CNC	/wiki/CNC
+Tool and die maker	/wiki/Tool_and_die_maker
+Moldmaker	/wiki/Moldmaker
+Patternmaker	/wiki/Pattern_(casting)
+Steel erector	/wiki/Steel_erector
+Welder	/wiki/Welder
+Boilermaker	/wiki/Boilermaker
+Pipefitter	/wiki/Pipefitter
+Millwright	/wiki/Millwright
+Blacksmith	/wiki/Blacksmith
+Laborer	/wiki/Laborer
+oiler	/wiki/Oiler_(occupation)
+automation	/wiki/Automation
+band saw	/wiki/Band_saw
+buffing and polishing	/wiki/Polishing
+Rigger	/wiki/Rigger_(industry)
+Heavy equipment operator	/wiki/Heavy_equipment_operator
+forklift	/wiki/Forklift_truck
+Manager	/wiki/Management
+Quality assurance	/wiki/Quality_assurance
+inspectors	/wiki/Inspection
+quality management systems	/wiki/Quality_management_system
+inspection	/wiki/Inspection
+statistics	/wiki/Statistics
+industrial engineering	/wiki/Industrial_engineering
+Weld quality assurance	/wiki/Weld_quality_assurance
+metallurgy	/wiki/Metallurgy
+materials science	/wiki/Materials_science
+CMMs	/wiki/Coordinate-measuring_machine
+surface plates	/wiki/Surface_plate
+height gauges	/wiki/Height_gauge
+micrometers	/wiki/Micrometer
+GD&T	/wiki/Geometric_dimensioning_and_tolerancing
+engineering drawing	/wiki/Engineering_drawing
+3D model	/wiki/Model-based_definition
+Metallurgist	/wiki/Metallurgy
+Miner	/wiki/Miner
+Scrap	/wiki/Scrap
+Union	/wiki/Trade_union
+Truck driver	/wiki/Truck_driver
+Mechanical engineer	/wiki/Mechanical_engineering
+Chemical engineer	/wiki/Chemical_engineering
+Industrial engineer	/wiki/Industrial_engineering
+Materials engineer	/wiki/Materials_science

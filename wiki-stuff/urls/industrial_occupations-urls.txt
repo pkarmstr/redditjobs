@@ -1,0 +1,20 @@
+Auto mechanic	/wiki/Auto_mechanic
+Beader	/wiki/Beader
+Bobbin boy	/wiki/Bobbin_boy
+Clerk of the Chapel	/wiki/Clerk_of_the_Chapel
+Filling station attendant	/wiki/Filling_station_attendant
+Foreman	/wiki/Construction_foreman
+Maintenance engineering	/wiki/Maintenance_engineering
+Mechanic	/wiki/Mechanic
+Miller	/wiki/Miller
+Moldmaker	/wiki/Moldmaker
+Panel beater	/wiki/Panel_beater
+Patternmaker	/wiki/Patternmaker
+Plant operator	/wiki/Plant_operator
+Plumber	/wiki/Plumber
+Sawfiler	/wiki/Sawfiler
+Shop foreman	/wiki/Shop_foreman
+Soaper	/wiki/Soaper
+Stationary engineer	/wiki/Stationary_engineer
+Wheelwright	/wiki/Wheelwright
+Woodworkers	/wiki/Woodworkers

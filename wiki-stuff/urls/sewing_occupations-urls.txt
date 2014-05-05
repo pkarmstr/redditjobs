@@ -1,0 +1,18 @@
+Bookbinder	/wiki/Bookbinding
+Cordwainer	/wiki/Cordwainer
+Corsetier	/wiki/Corset
+Draper	/wiki/Draper
+Dressmaker	/wiki/Dressmaker
+Embroiderer	/wiki/Embroidery
+Glover	/wiki/Glove
+Hatter	/wiki/Hatter
+Leatherworker	/wiki/Leather_crafting
+Milliner	/wiki/Hatmaking
+Parachute rigger	/wiki/Parachute_rigger
+Quilter	/wiki/Quilting
+Sailmaker	/wiki/Sailmaker
+Seamstress	/wiki/Dressmaker
+Shoemaker	/wiki/Shoemaking
+Tailor	/wiki/Tailor
+Taxidermist	/wiki/Taxidermy
+Upholsterer	/wiki/Upholstery

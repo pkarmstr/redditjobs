@@ -1,0 +1,40 @@
+Producer	/wiki/Theatrical_producer
+Director	/wiki/Theatre_director
+Playwright	/wiki/Playwright
+Scenic designer	/wiki/Scenic_design
+Lighting designer	/wiki/Lighting_designer
+Costume designer	/wiki/Costume_designer
+Sound designer	/wiki/Sound_design
+Production manager	/wiki/Production_management
+Technical Director	/wiki/Technical_Director
+Show control designer	/wiki/Show_control
+Theatrical technician	/wiki/Theatrical_technician
+Choreographer	/wiki/Choreographer
+Manager	/wiki/Theatre_manager
+Carpenter	/wiki/Carpenter_(theater)
+Charge artist	/wiki/Charge_artist
+Electrician	/wiki/Electrician_(theater)
+Master Electrician	/wiki/Master_Electrician
+Wardrobe Supervisor	/wiki/Wardrobe_Supervisor
+Publicist	/wiki/Publicist
+Technical Director	/wiki/Technical_Director
+Stage Manager	/wiki/Stage_Manager
+Front of House	/wiki/Front_of_House
+IATSE	/wiki/International_Alliance_of_Theatrical_Stage_Employees
+Actor	/wiki/Actor
+Artistic director	/wiki/Artistic_director
+Managing director	/wiki/Managing_director
+General manager	/wiki/General_manager
+Technical Director	/wiki/Technical_Director
+Marketing Director	/wiki/Marketing_Director
+Director of development	/wiki/Director_of_development
+Dramaturg	/wiki/Dramaturg
+House manager	/wiki/House_management
+Usher	/wiki/Usher_(occupation)
+Janitor	/wiki/Janitor
+Stage Crew	/wiki/Stage_Crew
+Grips	/wiki/Grips
+Character actor	/wiki/Character_actor
+Pantomime dame	/wiki/Pantomime_dame
+Stagehand	/wiki/Stagehand
+Running crew	/wiki/Running_crew

@@ -1,0 +1,51 @@
+Anesthesiologist	/wiki/Anesthesiologist
+Certified Registered Nurse Anesthetist	/wiki/Certified_Registered_Nurse_Anesthetist
+Registered Respiratory Therapist	/wiki/Registered_Respiratory_Therapist
+Cardiologist	/wiki/Cardiologist
+Intensivist	/wiki/Intensivist
+Neonatologist	/wiki/Neonatologist
+Emergency physician	/wiki/Emergency_physician
+Flight Nurse	/wiki/Flight_Nurse
+Registered Nurse	/wiki/Registered_Nurse
+Registered Respiratory Therapist	/wiki/Registered_Respiratory_Therapist
+Emergency Medical Technician	/wiki/Emergency_Medical_Technician
+Emergency Medical Technician	/wiki/Emergency_Medical_Technician
+Emergency Medical Technician	/wiki/Emergency_Medical_Technician
+Emergency Medical Technician	/wiki/Emergency_Medical_Technician
+Emergency Medical Technician	/wiki/Emergency_Medical_Technician
+Endocrinologist	/wiki/Endocrinologist
+Geriatrician	/wiki/Geriatrician
+Gastroenterologist	/wiki/Gastroenterologist
+Nephrologist	/wiki/Nephrologist
+Neurologist	/wiki/Neurologist
+Ophthamologist	/wiki/Ophthamologist
+Otolaryngologist	/wiki/Otolaryngologist
+Pulmonologist	/wiki/Pulmonologist
+Registered Respiratory Therapist	/wiki/Registered_Respiratory_Therapist
+Certified Respiratory Therapist	/wiki/Certified_Respiratory_Therapist
+Internist	/wiki/Internist
+Family Nurse Practitioner	/wiki/Family_Nurse_Practitioner
+Physician's Assistant	/wiki/Physician%27s_Assistant
+Pediatrician	/wiki/Pediatrician
+Neonatal Nurse Practitioner	/wiki/Neonatal_Nurse_Practitioner
+Pediatric Nurse Practitioner	/wiki/Pediatric_Nurse_Practitioner
+Psychiatrist	/wiki/Psychiatrist
+Psychologist	/wiki/Psychologist
+Psychiatric Nurse Practitioner	/wiki/Psychiatric_Nurse_Practitioner
+Mental Health Nurse Practitioner	/wiki/Mental_Health_Nurse_Practitioner
+Oncologist	/wiki/Oncologist
+Physical Therapist	/wiki/Physical_Therapist
+Occupational Therapist	/wiki/Occupational_Therapist
+Physical Therapy Assistant	/wiki/Physical_Therapy_Assistant
+Radiologist	/wiki/Radiologist
+Sonographer	/wiki/Sonographer
+Obstetrician	/wiki/Obstetrician
+Women's Health Nurse Practitioner	/wiki/Women%27s_Health_Nurse_Practitioner
+Doula	/wiki/Doula
+General Surgeon	/wiki/General_Surgeon
+Cardiothoracic surgeon	/wiki/Cardiothoracic_surgeon
+Neurosurgeon	/wiki/Neurosurgeon
+Urologist	/wiki/Urologist
+Hematologist	/wiki/Hematologist
+Medical Laboratory Technician	/wiki/Medical_Laboratory_Technician
+Phlebotomist	/wiki/Phlebotomist
