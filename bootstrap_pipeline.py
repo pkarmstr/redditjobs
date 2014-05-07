@@ -66,7 +66,8 @@ class MutualBootStrapper:
         for entry in tokenized_data:
             new_entry = []
             for sentence in entry:
-                tagged = [("__START__", "__START__")].extend(nltk.pos_tag(sentence))
+                tagged = [("__START__", "__START__")]
+                tagged.extend(nltk.pos_tag(sentence))
                 new_entry.append(tagged)
             pos_tagged_data.append(new_entry)
         print "[DONE]"
@@ -149,9 +150,12 @@ class MutualBootStrapper:
         self.calculate_pattern_scores()
         self.calculate_seed_scores()
         sorted_candidates = sorted([(v,k) for k,v in self.candidate_seed_scores.iteritems()], reverse=True)
-        return zip(*sorted_candidates)[1][:5]
+        try:
+            return zip(*sorted_candidates)[1][:5]
+        except IndexError:
+            return []
 
-    def run__mutual_bootstrapping(self):
+    def run_mutual_bootstrapping(self):
         added_patterns = 0
         while added_patterns < 10:
             self.find_patterns()
@@ -163,12 +167,12 @@ class MutualBootStrapper:
                 self.pattern_scores[best_pattern_index] = -10000000.
                 best_pattern_index = numpy.nanargmax(self.pattern_scores)
             if self.pattern_scores[best_pattern_index] < 0.7:
-                return False
+                return self.pattern_scores[best_pattern_index]
             self.best_extraction_patterns.add(best_pattern_index)
             for seed in self.n_counter_sets[best_pattern_index]:
                 self.candidate_seeds[seed].add(best_pattern_index)
             added_patterns += 1
-        return True
+        return self.pattern_scores[best_pattern_index]
 
     def run_meta_bootstrapping(self):
         best_five = self.cull_candidates()
@@ -179,12 +183,15 @@ class MutualBootStrapper:
         for i in range(num_iterations):
             print "Iteration: {:d}".format(i+1)
             print "running mutual bootstrapping...",
-            keep_going = self.run__mutual_bootstrapping()
+            best_score = self.run_mutual_bootstrapping()
             print "[DONE]"
-            if keep_going:
+            if best_score < 0.7:
                 print "running meta bootstrapping...",
                 self.run_meta_bootstrapping()
                 print "[DONE]"
+            else:
+                print "pattern score dropped too low: {:f}".format(best_score)
+                break
             print "number of seed terms: {:d}".format(len(self.seeds))
             print "number of total patterns: {:d}".format(self.pattern_alphabet.size())
             print "\n"
@@ -211,7 +218,7 @@ if __name__ == "__main__":
     parser.add_argument("--patterns", help="list of patterns to begin with")
 
     all_args = parser.parse_args()
-    all_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()][:100]
+    all_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()][:500]
 
     seeds = read_newline_file(all_args.seeds)
 
