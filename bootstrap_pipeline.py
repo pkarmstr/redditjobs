@@ -5,21 +5,8 @@ import json
 import re
 import numpy
 from helper import Alphabet
+from opennlp_wrapper import OpenNLPChunkerWrapper
 from collections import defaultdict
-
-def nested_tokenize(untokenized_sentences):
-    tokenized_sents = nltk.sent_tokenize(untokenized_sentences)
-    tokenized_words = [nltk.word_tokenize(sent) for sent in tokenized_sents]
-    postprocess_tokenized_text(tokenized_words)
-    return tokenized_words
-
-def postprocess_tokenized_text(tokenized):
-    for i,sent in enumerate(tokenized):
-        for j,word in enumerate(sent):
-            tokenized[i][j] = word.lower()
-            if "/" in word:
-                tokenized[i][j] = re.sub(r"/", r" / ", word)
-                #mutating the list
 
 def read_newline_file(input_file):
     all_lines = []
@@ -31,8 +18,12 @@ def read_newline_file(input_file):
 
 class MutualBootStrapper:
 
-    def __init__(self, tokenized_data, seeds, patterns=None):
-        self.tokenized_data = tokenized_data
+    def __init__(self, raw_data, seeds, patterns=None, processing=0):
+        if processing == 0:
+            tokenized = self.tokenize(raw_data)
+            self.pos_tagged_data = self.pos_tag(tokenized)
+            self.find_patterns = self.find_patterns_tagged
+            self.find_seeds = self.find_seeds_tagged
         self.seeds = set(seeds)
         self.pattern_alphabet = Alphabet()
         if patterns is not None:
@@ -43,13 +34,43 @@ class MutualBootStrapper:
         self.f_pattern_array = None
         self.first_pattern_words = set()
 
-    def build_patterns(self, sentence, index, size):
+    def tokenize(self, text):
+        all_entries = []
+        for entry in text:
+            tokenized_entry = self._nested_tokenize(entry)
+            all_entries.append(tokenized_entry)
+        return all_entries
+
+    def _nested_tokenize(self, untokenized_sentences):
+        tokenized_sents = nltk.sent_tokenize(untokenized_sentences)
+        tokenized_words = [nltk.word_tokenize(sent) for sent in tokenized_sents]
+        self._postprocess_tokenized_text(tokenized_words)
+        return tokenized_words
+
+    def _postprocess_tokenized_text(self, tokenized):
+        for i,sent in enumerate(tokenized):
+            for j,word in enumerate(sent):
+                tokenized[i][j] = word.lower()
+                if "/" in word:
+                    tokenized[i][j] = re.sub(r"/", r" / ", word)
+                    #mutating the list
+
+    def pos_tag(self, tokenized_data):
+        pos_tagged_data = []
+        for entry in tokenized_data:
+            new_entry = []
+            for sentence in entry:
+                new_entry.append(nltk.pos_tag(sentence))
+            pos_tagged_data.append(new_entry)
+        return pos_tagged_data
+
+    def build_patterns_tagged(self, sentence, index, size):
         window_start = index-size
         window_end = index+1
         sentence_copy = list(sentence)
-        sentence_copy[index] = "<x>"
+        sentence_copy[index] = "<x>",
         while window_start <= index: # this isn't quite right
-            candidate = sentence_copy[window_start:window_end]
+            candidate = zip(*sentence_copy[window_start:window_end])[0]
             if len(candidate) > 1:
                 self.pattern_alphabet.add(tuple(candidate))
                 if candidate[0] != "<x>":
@@ -59,45 +80,40 @@ class MutualBootStrapper:
             window_start += 1
             window_end += 1
 
-    def find_patterns(self):
-        for entry in self.tokenized_data:
+    def find_patterns_tagged(self):
+        for entry in self.pos_tagged_data:
             for sentence in entry:
-                for i,word in enumerate(sentence):
+                for i,(word,tag)  in enumerate(sentence):
                     if word in self.seeds:
-                        self.build_patterns(sentence, i, 2)
-                        self.build_patterns(sentence, i, 1)
+                        self.build_patterns_tagged(sentence, i, 2)
+                        self.build_patterns_tagged(sentence, i, 1)
 
     def set_counter_arrays(self):
         self.n_pattern_array = numpy.ones(self.pattern_alphabet.size())
         self.f_pattern_array = numpy.ones(self.pattern_alphabet.size())
 
-        # if not self.n_pattern_array or not self.f_pattern_array:
-        #     self.n_pattern_array = new_n_array
-        #     self.f_pattern_array = new_f_array
-        # else:
-        #     new_n_array[0:self.n_pattern_array.size] = self.n_pattern_array
-        #     self.n_pattern_array = new_n_array
-        #     new_f_array[0:self.f_pattern_array.size] = self.f_pattern_array
-        #     self.f_pattern_array = new_f_array
-
-    def find_seeds(self):
-        for entry in self.tokenized_data:
+    def find_seeds_tagged(self):
+        for entry in self.pos_tagged_data:
             for sentence in entry:
                 for i in range(len(sentence)):
-                    if sentence[i] in self.first_pattern_words:
-                        self.match_pattern(sentence, i, 3)
-                        self.match_pattern(sentence, i, 2)
+                    if sentence[i][0] in self.first_pattern_words:
+                        self.match_pattern_tagged(sentence, i, 3)
+                        self.match_pattern_tagged(sentence, i, 2)
 
-    def match_pattern(self, sentence, index, size):
+    def match_pattern_tagged(self, sentence, index, size):
         window_start = index-1
         window_end = index+size-1
         window = sentence[window_start:window_end]
         for seed_candidate_index in range(len(window)):
             window_copy = list(window)
-            window_copy[seed_candidate_index] = "<x>"
-            pattern = tuple(window_copy)
-            if len(pattern) > 1 and self.pattern_alphabet.has_label(pattern):
-                candidate_seed = window[seed_candidate_index]
+            _,pos = window_copy[seed_candidate_index]
+            window_copy[seed_candidate_index] = ("<x>", pos)
+            pattern = tuple(zip(*window_copy)[0])
+            if len(pattern) > 1 and \
+                    self.pattern_alphabet.has_label(pattern) and \
+                    window[seed_candidate_index][1].startswith("NN"):
+
+                candidate_seed = window[seed_candidate_index][0]
                 pattern_index = self.pattern_alphabet.get_index(pattern)
 
                 # increment our counters
@@ -166,7 +182,6 @@ if __name__ == "__main__":
     all_args = parser.parse_args()
     all_data = json.load(open(all_args.json_data))
 
-    cleaned_data = [nested_tokenize(instance) for _,instance in all_data.iteritems()]
     seeds = read_newline_file(all_args.seeds)
 
     if all_args.patterns:
@@ -174,7 +189,7 @@ if __name__ == "__main__":
     else:
         patterns = None
 
-    mbs = MutualBootStrapper(cleaned_data, seeds, patterns)
+    mbs = MutualBootStrapper(all_data, seeds, patterns)
     mbs.run(all_args.num_iterations)
 
     file_prefix = all_args.prefix
