@@ -1,5 +1,6 @@
 __author__ = 'keelan'
 
+import cPickle
 import nltk
 import re
 import json
@@ -99,11 +100,15 @@ def stringify_data(data):
 def process(data_dir, outfile):
     json_dict = read_all_data(data_dir)
     keys,data = zip(*json_dict.items())
+    print "processing {:d} entries".format(len(data))
     tokens = tokenize(data)
     pos_tagged = pos_tag(tokens)
+    with open("resources/pos_tagged.pkl", "wb") as f_out:
+        cPickle.dump(zip(keys,pos_tagged), f_out)
     chunked_data = chunk_data(pos_tagged)
     str_data = stringify_data(chunked_data)
-    assert len(str_data) == len(keys)
+    if len(str_data) != len(keys):
+        raise ValueError("{:d} != {:d}".format(len(str_data), len(keys))
     final_data = dict(zip(keys, str_data))
     print "saving... ",
     save_all_data(final_data, outfile)
