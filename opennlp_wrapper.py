@@ -1,3 +1,4 @@
+import sys
 from subprocess import Popen, PIPE, STDOUT
 
 class Chunk(list):
@@ -47,7 +48,9 @@ class Chunk(list):
                 pass
             else:
                 tag_and_token = tuple(chunked_str[i].split("_"))
-                assert len(tag_and_token) == 2 # just in case
+                if len(tag_and_token) != 2: # just in case
+                    print tag_and_token
+                    sys.exit()
                 chunks_list.append(tag_and_token)
 
             i += 1
