@@ -108,7 +108,7 @@ def process(data_dir, outfile):
     chunked_data = chunk_data(pos_tagged)
     str_data = stringify_data(chunked_data)
     if len(str_data) != len(keys):
-        raise ValueError("{:d} != {:d}".format(len(str_data), len(keys))
+        raise ValueError("{:d} != {:d}".format(len(str_data), len(keys)))
     final_data = dict(zip(keys, str_data))
     print "saving... ",
     save_all_data(final_data, outfile)
