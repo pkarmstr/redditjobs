@@ -43,15 +43,15 @@ def _postprocess_tokenized_text(tokenized):
         for j,word in enumerate(sent):
             tokenized[i][j] = word.lower()
             if "_" in word:
-                word = re.sub("_", " - ", word).split()
+                word = re.sub("_", " - ", word)
+            if "/" in word:
+                word = re.sub(r"/", r" / ", word)
             if word == "[":
                 input = ["-LRB-"]
             elif word == "]":
                 input = ["-LLB-"]
-            elif "/" in word:
-                input = re.sub(r"/", r" / ", word).split()
             else:
-                input = [word]
+                input = word.split()
             new_sentence.extend(input)
         better.append(new_sentence)
     return better
@@ -102,7 +102,7 @@ def stringify_data(data):
 
 def process(data_dir, outfile):
     json_dict = read_all_data(data_dir)
-    keys,data = zip(*json_dict.items()[:500])
+    keys,data = zip(*json_dict.items())
     print "processing {:d} entries".format(len(data))
     tokens = tokenize(data)
     pos_tagged = pos_tag(tokens)
