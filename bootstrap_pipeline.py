@@ -5,7 +5,7 @@ import json
 import re
 import numpy
 from helper import Alphabet
-from opennlp_wrapper import OpenNLPChunkerWrapper
+from opennlp_wrapper import Chunk
 from collections import defaultdict
 
 def read_newline_file(input_file):
@@ -18,13 +18,16 @@ def read_newline_file(input_file):
 
 class MutualBootStrapper:
 
-    def __init__(self, raw_data, seeds, patterns=None, processing=0):
+    def __init__(self, data, seeds, patterns=None, processing=0):
         if processing == 0:
-            tokenized = self.tokenize(raw_data)
+            tokenized = self.tokenize(data)
             self.pos_tagged_data = self.pos_tag(tokenized)
-
             self.find_patterns = self.find_patterns_tagged
             self.find_seeds = self.find_seeds_tagged
+        elif processing == 1:
+            self.chunked_data = data
+            self.find_patterns = self.find_patterns_chunked
+            self.find_seeds = self.find_seeds_chunked
         self.seeds = set(seeds)
         self.best_extraction_patterns = set()
         self.pattern_alphabet = Alphabet()
@@ -107,10 +110,76 @@ class MutualBootStrapper:
                         self.build_patterns_tagged(sentence, i, 2)
                         self.build_patterns_tagged(sentence, i, 1)
 
+    def find_patterns_chunked(self):
+        for entry in self.chunked_data:
+            for sentence in entry:
+                for i,word  in enumerate(sentence):
+                    if isinstance(word, Chunk) and word.head in self.seeds:
+                        self.build_patterns_tagged(sentence, i, 2)
+                        self.build_patterns_tagged(sentence, i, 1)
+
+    def build_patterns_chunked(self, sentence, index, size):
+        window_start = index-size
+        window_end = index+1
+        sentence_copy = list(sentence)
+        sentence_copy[index] = "<x>",
+        sentence_copy = self._flatten_chunks(sentence_copy)
+        while window_start <= index:
+            candidate = sentence_copy[window_start:window_end]
+            if len(candidate) > 1:
+                self.pattern_alphabet.add(tuple(candidate))
+                if candidate[0] != "<x>":
+                    self.first_pattern_words.add(candidate[0])
+                else:
+                    self.first_pattern_words.add(candidate[1])
+            window_start += 1
+            window_end += 1
+
+    def _flatten_chunks(self, sentence):
+        flattened_sentence = []
+        for constituent in sentence:
+            if isinstance(constituent, Chunk):
+                flattened_sentence.extend(constituent.tokens)
+            else:
+                flattened_sentence.append(constituent[0])
+        return flattened_sentence
+
     def set_counter_arrays(self):
         tmp_lst = [[]] * self.pattern_alphabet.size() # must be careful about mutability here
         self.n_counter_sets = map(set, tmp_lst)
         self.f_counter_sets = map(set, tmp_lst)
+
+    def find_seeds_chunked(self):
+        for entry in self.chunked_data:
+            for sentence in entry:
+                for i in range(len(sentence)):
+                    if isinstance(sentence[i], Chunk):
+                        self.match_pattern_tagged(sentence, i, 3)
+                        self.match_pattern_tagged(sentence, i, 2)
+
+    def match_pattern_chunked(self, sentence, index, size):
+        window_start = index-size
+        window_end = index+1
+        candidate_seed = sentence[index].head
+        sentence_copy = list(sentence)
+        sentence_copy[index] = "<x>",
+        sentence_copy = self._flatten_chunks(sentence_copy)
+        while window_start <= index:
+            window = sentence_copy[window_start:window_end]
+            pattern = tuple(window)
+            if len(pattern) > 1 and \
+                    self.pattern_alphabet.has_label(pattern) and \
+                    len(candidate_seed) > 2:
+
+                pattern_index = self.pattern_alphabet.get_index(pattern)
+
+                # increment our counters
+                self.n_counter_sets[pattern_index].add(candidate_seed)
+                if candidate_seed not in self.seeds:
+                    self.f_counter_sets[pattern_index].add(candidate_seed)
+
+            window_start += 1
+            window_end += 1
 
     def find_seeds_tagged(self):
         for entry in self.pos_tagged_data:
