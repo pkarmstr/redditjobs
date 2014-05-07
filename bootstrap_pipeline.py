@@ -18,7 +18,7 @@ def read_newline_file(input_file):
 
 class MutualBootStrapper:
 
-    def __init__(self, data, seeds, patterns=None, processing=0):
+    def __init__(self, data, seeds, patterns=None, processing=1):
         if processing == 0:
             tokenized = self.tokenize(data)
             self.pos_tagged_data = self.pos_tag(tokenized)
@@ -115,8 +115,8 @@ class MutualBootStrapper:
             for sentence in entry:
                 for i,word  in enumerate(sentence):
                     if isinstance(word, Chunk) and word.head in self.seeds:
-                        self.build_patterns_tagged(sentence, i, 2)
-                        self.build_patterns_tagged(sentence, i, 1)
+                        self.build_patterns_chunked(sentence, i, 2)
+                        self.build_patterns_chunked(sentence, i, 1)
 
     def build_patterns_chunked(self, sentence, index, size):
         window_start = index-size
@@ -154,8 +154,8 @@ class MutualBootStrapper:
             for sentence in entry:
                 for i in range(len(sentence)):
                     if isinstance(sentence[i], Chunk):
-                        self.match_pattern_tagged(sentence, i, 3)
-                        self.match_pattern_tagged(sentence, i, 2)
+                        self.match_pattern_chunked(sentence, i, 3)
+                        self.match_pattern_chunked(sentence, i, 2)
 
     def match_pattern_chunked(self, sentence, index, size):
         window_start = index-size
@@ -245,6 +245,9 @@ class MutualBootStrapper:
                 self.pattern_scores[best_pattern_index] = -10000000.
                 best_pattern_index = numpy.nanargmax(self.pattern_scores)
 
+            #print self.pattern_scores[best_pattern_index]
+            #print self.pattern_alphabet.get_label(best_pattern_index)
+            #print self.pattern_scores
             if self.pattern_scores[best_pattern_index] < 0.7:
                 return self.pattern_scores[best_pattern_index]
 
@@ -299,7 +302,15 @@ if __name__ == "__main__":
     parser.add_argument("--patterns", help="list of patterns to begin with")
 
     all_args = parser.parse_args()
-    all_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()]
+    raw_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()]
+
+    all_data = []
+    for entry in raw_data:
+        new_entry = []
+        for sentence in entry:
+            new_sentence = Chunk.chunked_str_to_list(sentence)
+            new_entry.append(new_sentence)
+        all_data.append(new_entry)
 
     seeds = read_newline_file(all_args.seeds)
 

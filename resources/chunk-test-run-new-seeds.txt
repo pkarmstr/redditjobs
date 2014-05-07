@@ -1,0 +1,11 @@
+lawyer
+doctor
+professor
+translator
+scientist
+student
+surgeon
+developer
+janitor
+teacher
+engineer

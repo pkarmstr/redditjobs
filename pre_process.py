@@ -42,6 +42,8 @@ def _postprocess_tokenized_text(tokenized):
         new_sentence = []
         for j,word in enumerate(sent):
             tokenized[i][j] = word.lower()
+            if "_" in word:
+                word = re.sub("_", " - ", word).split()
             if word == "[":
                 input = ["-LRB-"]
             elif word == "]":
@@ -61,6 +63,7 @@ def pos_tag(tokenized_data):
         new_entry = []
         for sentence in entry:
             tagged = nltk.pos_tag(sentence)
+            tagged = [(token.lower(), pos_tag) for token,pos_tag in tagged]
             new_entry.append(tagged)
         pos_tagged_data.append(new_entry)
     print "[DONE]"
@@ -99,7 +102,7 @@ def stringify_data(data):
 
 def process(data_dir, outfile):
     json_dict = read_all_data(data_dir)
-    keys,data = zip(*json_dict.items())
+    keys,data = zip(*json_dict.items()[:500])
     print "processing {:d} entries".format(len(data))
     tokens = tokenize(data)
     pos_tagged = pos_tag(tokens)
@@ -115,4 +118,4 @@ def process(data_dir, outfile):
     print "[DONE]"
 
 if __name__ == "__main__":
-    process("comment_data", "resources/prepared_data.json")
+    process("comment_data", "resources/prepared_data_small.json")
