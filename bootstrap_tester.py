@@ -2,7 +2,7 @@ __author__ = 'keelan'
 
 import unittest
 import json
-from opennlp_wrapper import OpenNLPChunkerWrapper
+from opennlp_wrapper import OpenNLPChunkerWrapper, Chunk
 from bootstrap_pipeline import MutualBootStrapper
 
 class BootStrapTester(unittest.TestCase):
@@ -55,8 +55,9 @@ class BootStrapTester(unittest.TestCase):
                            ("the", "DT"), ("agreement", "NN"), (".", ".")]
 
         chunked_sentence = self.chunker.chunk_sent(tagged_sentence)
-        # print chunked_sentence
-        self.assertEqual(len(chunked_sentence), 4)
+        print chunked_sentence
+        self.assertEqual(len(chunked_sentence), 0)
+        self.assertTrue(isinstance(chunked_sentence[0], Chunk))
 
 if __name__ == "__main__":
     unittest.main()

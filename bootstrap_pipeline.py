@@ -22,6 +22,7 @@ class MutualBootStrapper:
         if processing == 0:
             tokenized = self.tokenize(raw_data)
             self.pos_tagged_data = self.pos_tag(tokenized)
+
             self.find_patterns = self.find_patterns_tagged
             self.find_seeds = self.find_seeds_tagged
         self.seeds = set(seeds)
@@ -36,6 +37,12 @@ class MutualBootStrapper:
         self.n_pattern_array = None
         self.f_pattern_array = None
         self.first_pattern_words = set()
+
+    def chunk_data(self, pos_tagged_data):
+        chunked = []
+        for entry in pos_tagged_data:
+            for sentence in entry:
+                chunks = 0
 
     def tokenize(self, text):
         print "tokenizing...",
@@ -124,7 +131,8 @@ class MutualBootStrapper:
             pattern = tuple(zip(*window_copy)[0])
             if len(pattern) > 1 and \
                     self.pattern_alphabet.has_label(pattern) and \
-                    window[seed_candidate_index][1].startswith("NN"):
+                    window[seed_candidate_index][1].startswith("NN") and \
+                    len(window[seed_candidate_index][0]) > 2:
 
                 candidate_seed = window[seed_candidate_index][0]
                 pattern_index = self.pattern_alphabet.get_index(pattern)
@@ -162,17 +170,21 @@ class MutualBootStrapper:
             self.set_counter_arrays()
             self.find_seeds()
             self.calculate_pattern_scores()
+
             best_pattern_index = numpy.nanargmax(self.pattern_scores)
             while best_pattern_index in self.best_extraction_patterns:
                 self.pattern_scores[best_pattern_index] = -10000000.
                 best_pattern_index = numpy.nanargmax(self.pattern_scores)
+
             if self.pattern_scores[best_pattern_index] < 0.7:
                 return self.pattern_scores[best_pattern_index]
+
             self.best_extraction_patterns.add(best_pattern_index)
             for seed in self.n_counter_sets[best_pattern_index]:
                 self.candidate_seeds[seed].add(best_pattern_index)
             added_patterns += 1
-        return self.pattern_scores[best_pattern_index]
+
+        return 1
 
     def run_meta_bootstrapping(self):
         best_five = self.cull_candidates()
@@ -185,7 +197,7 @@ class MutualBootStrapper:
             print "running mutual bootstrapping...",
             best_score = self.run_mutual_bootstrapping()
             print "[DONE]"
-            if best_score < 0.7:
+            if best_score > 0.7:
                 print "running meta bootstrapping...",
                 self.run_meta_bootstrapping()
                 print "[DONE]"
@@ -218,7 +230,7 @@ if __name__ == "__main__":
     parser.add_argument("--patterns", help="list of patterns to begin with")
 
     all_args = parser.parse_args()
-    all_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()][:500]
+    all_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()]
 
     seeds = read_newline_file(all_args.seeds)
 
