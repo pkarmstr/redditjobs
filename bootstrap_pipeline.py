@@ -212,8 +212,8 @@ class MutualBootStrapper:
                     self.f_counter_sets[pattern_index].add(candidate_seed)
 
     def calculate_pattern_scores(self):
-        self.n_pattern_array = numpy.array(map(len, self.n_counter_sets))
-        self.f_pattern_array = numpy.array(map(len, self.f_counter_sets))
+        self.n_pattern_array = numpy.array(map(len, self.n_counter_sets), dtype=float)
+        self.f_pattern_array = numpy.array(map(len, self.f_counter_sets), dtype=float)
         self.pattern_scores = (self.f_pattern_array/self.n_pattern_array)*numpy.log2(self.f_pattern_array)
 
     def calculate_seed_scores(self):
