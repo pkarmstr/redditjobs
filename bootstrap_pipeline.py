@@ -28,24 +28,20 @@ class MutualBootStrapper:
             self.chunked_data = data
             self.find_patterns = self.find_patterns_chunked
             self.find_seeds = self.find_seeds_chunked
-        self.seeds = set(seeds)
+        self.permanent_lexicon = set(seeds)
+        self.temporary_lexicon = defaultdict(set)
+        for s in seeds:
+            self.temporary_lexicon[s] = set()
         self.best_extraction_patterns = set()
         self.pattern_alphabet = Alphabet()
         if patterns is not None:
             for p in patterns:
                 self.pattern_alphabet.add(p)
-        self.candidate_seeds = defaultdict(set)
         self.n_counter_sets = None # import for getting candidate seeds
         self.f_counter_sets = None
         self.n_pattern_array = None
         self.f_pattern_array = None
         self.first_pattern_words = set()
-
-    def chunk_data(self, pos_tagged_data):
-        chunked = []
-        for entry in pos_tagged_data:
-            for sentence in entry:
-                chunks = 0
 
     def tokenize(self, text):
         print "tokenizing...",
@@ -76,7 +72,7 @@ class MutualBootStrapper:
         for entry in tokenized_data:
             new_entry = []
             for sentence in entry:
-                tagged = [("__START__", "__START__")]
+                tagged = [("<START>", "<START>")]
                 tagged.extend(nltk.pos_tag(sentence))
                 new_entry.append(tagged)
             pos_tagged_data.append(new_entry)
@@ -106,32 +102,29 @@ class MutualBootStrapper:
         for entry in self.pos_tagged_data:
             for sentence in entry:
                 for i,(word,tag)  in enumerate(sentence):
-                    if word in self.seeds:
+                    if word in self.temporary_lexicon:
                         self.build_patterns_tagged(sentence, i, 2)
                         self.build_patterns_tagged(sentence, i, 1)
 
     def find_patterns_chunked(self):
         for entry in self.chunked_data:
             for sentence in entry:
-                for i,word  in enumerate(sentence):
-                    if isinstance(word, Chunk) and word.head in self.seeds:
+                for i,word in enumerate(sentence):
+                    if isinstance(word, Chunk) and word.head in self.temporary_lexicon:
                         self.build_patterns_chunked(sentence, i, 2)
                         self.build_patterns_chunked(sentence, i, 1)
 
     def build_patterns_chunked(self, sentence, index, size):
-        window_start = index-size
-        window_end = index+1
         sentence_copy = list(sentence)
         sentence_copy[index] = "<x>",
         sentence_copy = self._flatten_chunks(sentence_copy)
+        index = sentence_copy.index("<x>")
+        window_start = index-size
+        window_end = index+1
         while window_start <= index:
             candidate = sentence_copy[window_start:window_end]
             if len(candidate) > 1:
                 self.pattern_alphabet.add(tuple(candidate))
-                if candidate[0] != "<x>":
-                    self.first_pattern_words.add(candidate[0])
-                else:
-                    self.first_pattern_words.add(candidate[1])
             window_start += 1
             window_end += 1
 
@@ -145,7 +138,7 @@ class MutualBootStrapper:
         return flattened_sentence
 
     def set_counter_arrays(self):
-        tmp_lst = [[]] * self.pattern_alphabet.size() # must be careful about mutability here
+        tmp_lst = [[]] * self.pattern_alphabet.size() # must be careful about pointers here
         self.n_counter_sets = map(set, tmp_lst)
         self.f_counter_sets = map(set, tmp_lst)
 
@@ -154,16 +147,17 @@ class MutualBootStrapper:
             for sentence in entry:
                 for i in range(len(sentence)):
                     if isinstance(sentence[i], Chunk):
-                        self.match_pattern_chunked(sentence, i, 3)
                         self.match_pattern_chunked(sentence, i, 2)
+                        self.match_pattern_chunked(sentence, i, 1)
 
     def match_pattern_chunked(self, sentence, index, size):
-        window_start = index-size
-        window_end = index+1
         candidate_seed = sentence[index].head
         sentence_copy = list(sentence)
         sentence_copy[index] = "<x>",
         sentence_copy = self._flatten_chunks(sentence_copy)
+        index = sentence_copy.index("<x>")
+        window_start = index-size
+        window_end = index+1
         while window_start <= index:
             window = sentence_copy[window_start:window_end]
             pattern = tuple(window)
@@ -175,7 +169,7 @@ class MutualBootStrapper:
 
                 # increment our counters
                 self.n_counter_sets[pattern_index].add(candidate_seed)
-                if candidate_seed not in self.seeds:
+                if candidate_seed not in self.temporary_lexicon:
                     self.f_counter_sets[pattern_index].add(candidate_seed)
 
             window_start += 1
@@ -208,25 +202,28 @@ class MutualBootStrapper:
 
                 # increment our counters
                 self.n_counter_sets[pattern_index].add(candidate_seed)
-                if candidate_seed not in self.seeds:
+                if candidate_seed not in self.temporary_lexicon:
                     self.f_counter_sets[pattern_index].add(candidate_seed)
 
     def calculate_pattern_scores(self):
-        self.n_pattern_array = numpy.array(map(len, self.n_counter_sets))
-        self.f_pattern_array = numpy.array(map(len, self.f_counter_sets))
-        self.pattern_scores = (self.f_pattern_array/self.n_pattern_array)*numpy.log2(self.f_pattern_array)
+        self.n_pattern_array = numpy.array(map(len, self.n_counter_sets), dtype=float) + 1.
+        self.f_pattern_array = numpy.array(map(len, self.f_counter_sets), dtype=float) + 1.
+
+        self.pattern_scores = numpy.nan_to_num((self.f_pattern_array/self.n_pattern_array)*numpy.log2(self.f_pattern_array))
 
     def calculate_seed_scores(self):
         self.candidate_seed_scores = {}
-        for candidate_seed,matched_patterns_set in self.candidate_seeds.iteritems():
+        for candidate_seed,matched_patterns_set in self.temporary_lexicon.iteritems():
             matched_patterns = list(matched_patterns_set)
             score = numpy.sum((self.pattern_scores[matched_patterns] * 0.01) + 1)
+            #print score
             self.candidate_seed_scores[candidate_seed] = score
 
     def cull_candidates(self):
         self.calculate_pattern_scores()
         self.calculate_seed_scores()
         sorted_candidates = sorted([(v,k) for k,v in self.candidate_seed_scores.iteritems()], reverse=True)
+        #print sorted_candidates
         try:
             return zip(*sorted_candidates)[1][:5]
         except IndexError:
@@ -234,7 +231,8 @@ class MutualBootStrapper:
 
     def run_mutual_bootstrapping(self):
         added_patterns = 0
-        while added_patterns < 10:
+        best_score = 5
+        while added_patterns < 10 or best_score > 1.8:
             self.find_patterns()
             self.set_counter_arrays()
             self.find_seeds()
@@ -245,45 +243,41 @@ class MutualBootStrapper:
                 self.pattern_scores[best_pattern_index] = -10000000.
                 best_pattern_index = numpy.nanargmax(self.pattern_scores)
 
-            #print self.pattern_scores[best_pattern_index]
-            #print self.pattern_alphabet.get_label(best_pattern_index)
-            #print self.pattern_scores
             if self.pattern_scores[best_pattern_index] < 0.7:
-                return self.pattern_scores[best_pattern_index]
+                return
+
+            best_score = self.pattern_scores[best_pattern_index]
+            #print best_score, self.pattern_alphabet.get_label(best_pattern_index)
 
             self.best_extraction_patterns.add(best_pattern_index)
             for seed in self.n_counter_sets[best_pattern_index]:
-                self.candidate_seeds[seed].add(best_pattern_index)
+                self.temporary_lexicon[seed].add(best_pattern_index)
             added_patterns += 1
-
-        return 1
 
     def run_meta_bootstrapping(self):
         best_five = self.cull_candidates()
-        self.seeds.update(best_five)
-        self.candidate_seeds = defaultdict(set)
+        self.permanent_lexicon.update(best_five)
+        self.temporary_lexicon = defaultdict(set)
+        for s in self.permanent_lexicon:
+            self.temporary_lexicon[s] = set()
 
     def run(self, num_iterations=50):
         for i in range(num_iterations):
             print "Iteration: {:d}".format(i+1)
-            print "running mutual bootstrapping...",
-            best_score = self.run_mutual_bootstrapping()
+            print "running mutual bootstrapping..."
+            self.run_mutual_bootstrapping()
             print "[DONE]"
-            if best_score > 0.7:
-                print "running meta bootstrapping...",
-                self.run_meta_bootstrapping()
-                print "[DONE]"
-            else:
-                print "pattern score dropped too low: {:f}".format(best_score)
-                break
-            print "number of seed terms: {:d}".format(len(self.seeds))
+            print "running meta bootstrapping...",
+            self.run_meta_bootstrapping()
+            print "[DONE]"
+            print "number of seed terms: {:d}".format(len(self.permanent_lexicon))
             print "number of total patterns: {:d}".format(self.pattern_alphabet.size())
             print "\n"
 
 
     def save_seeds(self, outfile):
         with open(outfile, "w") as f_out:
-            f_out.write("\n".join(s.encode("utf-8") for s in self.seeds))
+            f_out.write("\n".join(s.encode("utf-8") for s in self.permanent_lexicon))
 
     def save_patterns(self, outfile):
         with open(outfile, "w") as f_out:
@@ -300,6 +294,7 @@ if __name__ == "__main__":
     parser.add_argument("-n", "--num_iterations", type=int)
     parser.add_argument("-p", "--prefix", help="file name prefix when saving to disk")
     parser.add_argument("--patterns", help="list of patterns to begin with")
+    parser.add_argument("-t", "--tokenize", help="use chunks or not")
 
     all_args = parser.parse_args()
     raw_data = [v for k,v in json.load(open(all_args.json_data)).iteritems()]
@@ -319,7 +314,12 @@ if __name__ == "__main__":
     else:
         patterns = None
 
-    mbs = MutualBootStrapper(all_data, seeds, patterns)
+    if all_args.tokenize:
+        proc = int(all_args.tokenize)
+    else:
+        proc = 1
+
+    mbs = MutualBootStrapper(all_data, seeds, patterns, processing=proc)
     mbs.run(all_args.num_iterations)
 
     file_prefix = all_args.prefix

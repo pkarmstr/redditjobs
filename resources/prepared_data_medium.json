@@ -1,0 +1,695 @@
+{
+    "c63kl8z": [
+        "<START>_<START> [NP i_PRP ] have_VBP [NP a_DT bad_JJ job_NN ] ,_, so_RB [NP i_PRP ] should_MD feel_VB bad_JJ ._."
+    ],
+    "c63pw3h": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP an_DT or_NNP nurse_NN ] in_IN [NP trauma_NN ] /_: [NP emergency_NN surgery_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP [NP my_PRP$ job_NN ] :_: )_:"
+    ],
+    "c1j5gs5": [
+        "<START>_<START> before_IN [NP i_PRP ] was_VBD [NP a_DT student_NN ] ,_, [NP i_PRP ] did_VBD [NP bitch-work_JJ data_NNS entry_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] just_RB sat_JJ in_IN [NP front_NN ] of_IN [NP a_DT computer_NN ] [NP all_DT day_NN and_CC input_NN information_NN ] from_IN [NP hardcopies_NNS ] into_IN [NP our_PRP$ system_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] was_VBD for_IN [NP an_DT insurance_NN company_NN ] [NP that_WDT ] did_VBD [NP mostly_RB automotive_JJ insurance_NN ] ,_, so_RB [NP the_DT other_JJ people_NNS ] in_IN [NP my_PRP$ office_NN ] did_VBD [NP data_NNS entry_NN ] ,_, claims_VBZ adjusting_VBG ,_, or_CC [NP other_JJ things_NNS ] like_IN [NP that_DT ] ._.",
+        "<START>_<START> [NP most_JJS people_NNS ] did_VBD [NP a_DT lot_NN more_RBR phone_NN work_NN ] ,_, but_CC in_IN [NP data_NNS entry_NN ] [NP we_PRP ] were_VBD [NP 95_CD %_NN typing_NN ] with_IN [NP the_DT occasional_JJ call_NN ] for_IN [NP missing_NN information_NN ] ._."
+    ],
+    "c63qf2n": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT youth_NN worker_NN ] that_IN [NP 's_POS works_NNS ] with_IN [NP kids_NNS ] aged_VBD [NP 14-16_CD ] that_IN [NP are_JJ ] out_IN of_IN [NP school_NN ] for_IN [NP various_JJ reasons_NNS ] -_: [NP some_DT behavioural_JJ ] ,_, [NP some_DT emotional_JJ ] ._.",
+        "<START>_<START> [NP it_PRP ] can_MD be_VB incredibly_RB tough_JJ but_CC overall_JJ [NP i_PRP ] love_VBP [NP it_PRP ] ._.",
+        "<START>_<START> if_IN [NP we_PRP ] manage_VBP to_TO make_VB [NP a_DT difference_NN ] to_TO [NP even_RB a_DT few_JJ ] of_IN [NP their_PRP$ lives_NNS ] then_RB [NP it_PRP ] is_VBZ worth_JJ [NP it_PRP ] ._.",
+        "<START>_<START> [NP that_DT day_NN ] when_WRB [NP a_DT girl_NN ] [NP who_WP ] wo_MD n't_RB talk_VB to_TO [NP anyone_NN ] ,_, finally_RB opens_VBZ up_RP to_TO [NP you_PRP ] after_IN [NP months_NNS ] of_IN supporting_VBG [NP them_PRP ] ,_, [NP the_DT ones_NNS ] [NP that_WDT ] come_VBP back_RB [NP years_NNS later_RBR ] to_TO thank_VB [NP us_PRP ] for_IN [NP what_WP ] [NP we_PRP ] did_VBD for_IN [NP them_PRP ] ._.",
+        "<START>_<START> sometimes_RB heart_VBN breaking_VBG but_CC ultimately_RB incredibly_RB rewarding_VBG ._."
+    ],
+    "c2p3tp1": [
+        "<START>_<START> after_IN working_VBG in_IN [NP the_DT fast_NN food_NN industry_NN ] and_CC finishing_VBG [NP my_PRP$ second_JJ degree_NN ] ,_, [NP i_PRP ] landed_VBD [NP a_DT job_NN ] in_IN [NP the_DT it_PRP ] department_VBD of_IN [NP a_DT big_JJ company_NN ] in_IN [NP the_DT san_NNP francisco_NNP bay_NNP area_NNP ] ._.",
+        "<START>_<START> [NP huge_JJ difference_NN ] ,_, [NP i_PRP ] 'm_VBP finally_RB doing_VBG [NP what_WP ] [NP i_PRP ] like_VBP ._.",
+        "<START>_<START> [NP -i_NN ] really_RB like_IN [NP the_DT people_NNS ] [NP i_PRP ] work_VBP with_IN [NP (_CD ] [NP it_PRP ] [NP department_NN ] )_: [NP -my_JJ hours_NNS ] are_VBP relatively_RB flexible_JJ and_CC [NP i_PRP ] do_VBP n't_RB have_VB to_TO [NP punch-in_NNP ] ,_, punch-out_IN [NP -i_NNP get_NN ] to_TO go_VB around_IN [NP the_DT bay_NNP area_NNP ] ,_, [NP i_PRP ] can_MD pretty_RB much_RB decide_VBP [NP i_PRP ] work_VBP in_IN [NP the_DT city_NN ] or_CC in_IN [NP the_DT office_NN ] [NP 5_CD minutes_NNS ] from_IN [NP my_PRP$ house_NN ] and_CC [NP i_PRP ] get_VBP paid_VBN for_IN [NP mileage_NN ] ._.",
+        "<START>_<START> [NP -being_JJ the_DT ] ``_`` [NP it_PRP ] guy_VBP ''_'' [NP i_PRP ] get_VBP [NP some_DT sort_NN ] of_IN [NP respect_NN ] from_IN [NP people_NNS ] ._.",
+        "<START>_<START> [NP -i_NN ] get_VBD paid_VBN fairly_RB good_JJ and_CC have_VBP [NP benefits_NNS ] ._.",
+        "<START>_<START> [NP -i_NN ] can_MD reddit_VB if_IN [NP i_PRP ] have_VBP [NP free_JJ time_NN ] !_."
+    ],
+    "c2p4ven": [
+        "<START>_<START> [NP web_NNP dev_NN ] for_IN [NP a_DT game_NN company_NN ] ._.",
+        "<START>_<START> [NP need_NNP ] [NP i_PRP ] say_VBP more_JJR ?_.",
+        "<START>_<START> [NP same_NNP bennies_NNS ] as_IN [NP the_DT game_NN developers_NNS ] ,_, but_CC [NP no_DT million-hour_JJ work_NN weeks_NNS ] to_TO meet_VB [NP product_NN deadlines_NNS ] (_: [NP those_DT poor_JJ bastards_NNS ] )_: ._.",
+        "<START>_<START> [NP game_NNP companies_NNS ] are_VBP [NP great_JJ places_NNS ] to_TO work_VB if_IN [NP you_PRP ] 're_VBP not_RB actually_RB involved_VBN in_IN [NP product_NN development_NN ] ._.",
+        "<START>_<START> [NP life_NNP ] is_VBZ good_JJ ._."
+    ],
+    "c2p7oyc": [
+        "<START>_<START> [NP i_PRP ] was_VBD in_IN [NP the_DT exact_JJ same_NN situation_NN ] as_IN [NP you_PRP ] ._.",
+        "<START>_<START> [NP i_PRP ] graduated_VBD from_IN [NP college_NN ] with_IN [NP a_DT generic_JJ degree_NN ] in_IN [NP business_NN administration_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] realized_VBD that_IN [NP i_PRP ] needed_VBD [NP something_NN ] [NP more_JJR solid_JJ ] ,_, like_IN [NP a_DT skill_NN ] so_IN [NP i_PRP ] went_VBD to_TO [NP a_DT state_NN funded_VBN tech_NN school_NN ] to_TO [NP study_NN information_NN ] [NP technology_NNP ] ._.",
+        "<START>_<START> now_RB [NP i_PRP ] have_VBP [NP a_DT job_NN ] [NP that_WDT ] is_VBZ extremely_RB fun_VBN ._.",
+        "<START>_<START> [NP i_PRP ] fix_VBP ,_, [NP manage_NN ] ,_, and_CC engineer_NN [NP it_PRP ] systems_VBZ ._.",
+        "<START>_<START> [NP every_DT day_NN ] is_VBZ different_JJ and_CC exciting_VBG and_CC [NP the_DT pay_NN ] consistently_RB increases_VBZ with_IN [NP individual_JJ skill_NN level_NN ] ._."
+    ],
+    "c2p5w3e": [
+        "<START>_<START> [NP environmental_NNP scientist_NNP ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP a_DT really_RB rewarding_VBG job_NN ] !_.",
+        "<START>_<START> [NP goodluck_NNP ]"
+    ],
+    "cckgnol": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP an_DT esthetician_JJ ] ._.",
+        "<START>_<START> [NP show_NN ] [NP the_DT up_NN ] on_IN [NP time_NN ] !_.",
+        "<START>_<START> [NP call_NN ] if_IN [NP you_PRP ] 're_VBP going_VBG to_TO be_VB late_JJ !_.",
+        "<START>_<START> listen_RB to_TO [NP my_PRP$ words_NNS and_CC instructions_NNS ] ._.",
+        "<START>_<START> do_VBP n't_RB show_VB up_RP [NP late_JJ ] and_CC then_RB go_VB [NP pee_NN ] ._.",
+        "<START>_<START> do_VBP n't_RB tell_VB [NP me_PRP ] how_WRB to_TO do_VB [NP my_PRP$ job_NN ] [NP i_PRP ] 'm_VBP thoroughly_RB trained_VBN for_IN [NP *edit_JJ just_NNP tell_NNP me_NNP your_NNP fucking_NNP allergies_NNP ] ._.",
+        "<START>_<START> [NP you_PRP ] do_VBP n't_RB think_VB [NP they_PRP ] matter_JJR ?_.",
+        "<START>_<START> do_VBP [NP you_PRP ] know_VB [NP what_WP bromelain_NN ] is_VBZ ?_.",
+        "<START>_<START> no_DT ?_.",
+        "<START>_<START> well_RB if_IN [NP you_PRP ] 're_VBP allergic_JJ to_TO pineapple_VB [NP you_PRP ] 'll_MD be_VB happy_JJ [NP i_PRP ] do_VBP ._.",
+        "<START>_<START> [NP do_NNP ] n't_RB tell_VB [NP me_PRP ] that_IN ``_`` [NP it_PRP ] wo_MD n't_RB come_VB up_RP here_RB ''_'' ,_, [NP it_PRP ] might_MD ,_, [NP you_PRP ] do_VBP n't_RB know_VB where_WRB [NP all_DT ingredients_NNS ] are_VBP derived_VBN from_IN where_WRB [NP i_PRP ] try_VBP [NP my_PRP$ best_JJS to_TO ] ._.",
+        "<START>_<START> if_IN [NP you_PRP ] say_VBP [NP something_NN ] like_IN [NP papaya_NN ] [NP i_PRP ] 'll_MD tell_VB [NP you_PRP ] that_IN [NP you_PRP ] might_MD want_VB to_TO avoid_VB [NP things_NNS ] like_IN [NP hair_NN growth_NN inhibitors_NNS ] etc_VBP ._.",
+        "<START>_<START> just_RB answer_JJR [NP the_DT fucking_NN question_NN ] ,_, [NP i_PRP ] do_VBP n't_RB have_VB [NP patience_NN ] to_TO ask_VB [NP you_PRP ] in_IN [NP five_CD different_JJ ways_NNS ] [NP what_WDT ] [NP your_NNP allergies_NNP are_NNP ] ._.",
+        "<START>_<START> [NP this_DT happens_NNS ] to_TO [NP me_PRP ] [NP three_CD times_NNS ] [NP a_DT day_NN ] ,_, pissing_VBG off_RP [NP your_PRP$ waxer_NN ] before_IN [NP things_NNS ] start_VBP is_VBZ not_RB good_JJ ._."
+    ],
+    "c2p6lon": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT technical_JJ writer_NN ] and_CC [NP i_PRP ] get_VBP to_TO work_VB from_IN [NP home_NN ] [NP most_RBS ] of_IN [NP the_DT time_NN ] and_CC for_IN [NP well_RB over_RB minimum_JJ wage_NN ] :_: )_: [NP i_PRP ] also_RB teach_VBP budding_VBG [NP engineers_NNS ] how_WRB to_TO communicate_VB effectively_RB ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP college_NN level_NN ] so_RB [NP i_PRP ] 'm_VBP dealing_VBG with_IN [NP adults_NNS ] mostly_RB ._.",
+        "<START>_<START> [NP the_DT pay_NN sucks_NNS ] but_CC [NP i_PRP ] love_VBP to_TO teach_VB ._."
+    ],
+    "c2p860e": [
+        "<START>_<START> [NP i_PRP ] actually_RB love_VBP [NP my_PRP$ job_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT teacher_NN ] ._.",
+        "<START>_<START> [NP the_DT kids_NNS ] ,_, [NP coworkers_NNS ] ,_, and_CC [NP fulfillment_NN ] is_VBZ unbeatable_JJ ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP frustrated_VBN from_IN [NP time_NN ] to_TO [NP time_VB ] ,_, but_CC in_IN [NP the_DT end_NN ] ,_, [NP it_PRP ] 's_VBZ [NP super_JJR awesome_NN ] to_TO be_VB [NP a_DT teacher_NN ] ._."
+    ],
+    "cckkd6s": [
+        "<START>_<START> [NP emt_NN ] ._.",
+        "<START>_<START> [NP do_NNP ] n't_RB drive_VB [NP drunk_NN ] ,_, avoid_VBD doing_VBG [NP stupid_JJ things_NNS ] [NP that_WDT ] have_VBP [NP a_DT strong_JJ potential_JJ ] to_TO injure_VB [NP you_PRP ] ,_, and_CC if_IN [NP you_PRP ] feel_VBP like_IN [NP you_PRP ] [NP *may*_-NONE- ] need_VBP to_TO go_VB to_TO [NP the_DT hospital_NN ] ,_, [NP **go_NNP ] to_TO [NP the_DT hospital_NN ] ._.",
+        "<START>_<START> [NP **_-NONE- please_NNP ] do_VBP n't_RB wait_VB until_IN [NP your_PRP$ seemingly_RB minor_JJ ailment_NN ] becomes_VBZ [NP an_DT emergency_NN ] ._.",
+        "<START>_<START> [NP edit_NN ] :_: when_WRB [NP i_PRP ] say_VBP [NP *may*_-NONE- ] need_VBP to_TO go_VB to_TO [NP the_DT hospital_NN ] ,_, [NP i_PRP ] do_VBP n't_RB mean_VB for_IN [NP the_DT paper-cut_JJ ] [NP you_PRP ] got_VBD [NP yesterday_NN ] that_IN [NP reopened_VBN ] [NP this_DT morning_NN ] ._.",
+        "<START>_<START> [NP what_WP ] [NP i_PRP ] mean_VBP is_VBZ if_IN [NP you_PRP ] woke_VBP up_RP in_IN [NP the_DT middle_NN ] of_IN [NP the_DT night_NN ] and_CC vomit_NN [NP a_DT small_JJ amount_NN ] of_IN [NP blood_NN ] ,_, do_VBP n't_RB wait_VB to_TO see_VB if_IN [NP you_PRP ] still_RB vomit_VBP [NP blood_NN tomorrow_NN ] ._.",
+        "<START>_<START> [NP healthy_NNP people_NNS ] do_VBP n't_RB vomit_VB [NP blood_NN ] ._.",
+        "<START>_<START> [NP seek_NNP medical_JJ care_NN ] ._."
+    ],
+    "c1j59t4": [
+        "<START>_<START> [NP i_PRP ] work_VBP on_IN [NP the_DT weapons_NNS ] ,_, [NP navigation_NN ] ,_, and_CC [NP guidance_NN computer_NN systems_NNS ] for_IN [NP us_PRP ] [NP naval_NNP ships_NNS ] ._."
+    ],
+    "c2p4crt": [
+        "<START>_<START> [NP forget_NN ] about_IN [NP what_WP ] [NP your_PRP$ degree_NN ] is_VBZ ._.",
+        "<START>_<START> [NP what_WP ] do_VBP you_PRP want_VB to_TO do_VB ?_.",
+        "<START>_<START> [NP figure_NN ] that_IN out_IN [NP now_NNP ] before_IN [NP it_PRP ] 's_VBZ too_RB late_JJ ._.",
+        "<START>_<START> then_RB pursue_VBP that_IN [NP thing_NN ] ,_, regardless_RB of_IN [NP your_PRP$ skill_NN set_NN or_CC preparation_NN ] ._.",
+        "<START>_<START> [NP you_PRP ] are_VBP [NP young_JJ enough_JJ ] to_TO shift_VB [NP gears_NNS ] now_RB before_IN [NP it_PRP ] costs_VBZ [NP you_PRP ] ._.",
+        "<START>_<START> [NP i_PRP ] got_VBD [NP a_DT degree_NN ] in_IN [NP fine_NNP art_NNP /_NNP graphic_NNP design_NNP ] ._.",
+        "<START>_<START> [NP i_PRP ] really_RB did_VBD n't_RB know_VB [NP what_WP ] [NP i_PRP ] wanted_VBD to_TO do_VB ._.",
+        "<START>_<START> [NP i_PRP ] kind_VBP of_IN wanted_JJ to_TO be_VB [NP an_DT artist_NN ] ,_, but_CC unfortunately_RB [NP i_PRP ] did_VBD n't_RB have_VB [NP the_DT right_NN people_NNS ] in_IN [NP my_PRP$ life_NN ] to_TO help_VB [NP me_PRP ] realize_VB that_IN [NP dream_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] kind_VBP of_IN [NP lucked_VBN out_RP ] ,_, [NP i_PRP ] ended_VBD starting_VBG in_IN [NP graphic_JJ design_NN ] ,_, learned_VBD [NP web_NN development_NN ] /_: [NP web_NN design_NN ] and_CC ultimately_RB trained_VBN [NP myself_PRP ] over_IN [NP a_DT period_NN ] of_IN [NP years_NNS ] to_TO become_VB [NP an_DT interface_NN designer_NN ] /_: [NP user_NN experience_NN designer_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] enjoy_VBP [NP it_PRP ] [NP most_JJS ] of_IN [NP the_DT time_NN ] ,_, [NP i_PRP ] 'm_VBP lucky_JJ ._.",
+        "<START>_<START> [NP i_PRP ] do_VBP use_RB [NP my_PRP$ art_NN skills_NNS ] as_IN well_RB ,_, but_CC [NP there_EX ] was_VBD [NP a_DT period_NN ] of_IN [NP years_NNS ] there_EX were_VBD [NP i_PRP ] was_VBD [NP a_DT code_NN monkey_NN ] and_CC [NP i_PRP ] was_VBD not_RB really_RB enjoying_VBG [NP myself_PRP ] at_IN [NP all_DT ] ._.",
+        "<START>_<START> as_IN [NP well_RB as_IN ] [NP i_PRP ] 'm_VBP doing_VBG now_RB ,_, [NP i_PRP ] do_VBP wish_JJ in_IN [NP my_PRP$ heart_NN ] of_IN [NP hearts_NNS ] [NP that_WDT ] [NP i_PRP ] would_MD have_VB pursued_VBN [NP an_DT art_NN career_NN ] -_: [NP animation_NN ] ,_, [NP concept_NN art_NN ] ,_, that_IN [NP type_NN ] of_IN [NP thing_NN ] ._.",
+        "<START>_<START> instead_RB [NP i_PRP ] let_VBP [NP my_PRP$ skills_NNS ] rot_VBD for_IN [NP years_NNS ] and_CC never_RB pursued_VBN [NP it_PRP ] ._.",
+        "<START>_<START> [NP do_NNP ] n't_RB make_VB that_IN [NP mistake_NN ] ._.",
+        "<START>_<START> now_RB [NP i_PRP ] do_VBP [NP a_DT -lrb-_-LRB- comic_JJ ] on_IN [NP the_DT side_NN -llb-_-RRB- ] (_: [NP http_NN ] :_: /_: /_: [NP www.maroonedcomic.com_JJ )_NN ] for_IN [NP fun_NN ] and_CC [NP creative_JJ outlet_NN ] ,_, but_CC [NP i_PRP ] ca_MD n't_RB do_VB [NP that_DT ] for_IN [NP a_DT living_NN ] ._.",
+        "<START>_<START> [NP tldr_NNP ] ;_: [NP pursue_NNP ] [NP what_WP ] [NP you_PRP ] love_VBP to_TO do_VB ,_, and_CC make_VB [NP it_PRP ] [NP your_PRP$ career_NN ] ._.",
+        "<START>_<START> if_IN [NP you_PRP ] do_VBP n't_RB know_VB ,_, [NP try_NN ] and_CC figure_NN [NP it_PRP ] out_RP ._."
+    ],
+    "c2p5hbg": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP the_DT european_NNP sales_NNP manager_NNP ] for_IN [NP a_DT company_NN ] [NP that_WDT ] makes_VBZ [NP navigation_NN lamps_NNS ] and_CC [NP stuff_NN ] for_IN [NP boats_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] really_RB enjoy_VBP [NP my_PRP$ job_NN ] -_: [NP the_DT product_NN ] [NP i_PRP ] 'm_VBP selling_VBG is_VBZ [NP awesome_DT ] ,_, [NP my_PRP$ colleagues_NNS ] are_VBP lovely_RB ,_, [NP i_PRP ] get_VBP to_TO go_VB to_TO [NP europe_NNP 4_CD times_NNS ] [NP a_DT year_NN ] for_IN [NP boat_NN shows_NNS ] ,_, [NP which_WDT ] [NP i_PRP ] usually_RB combine_VBP with_IN seeing_VBG [NP my_PRP$ friends_NNS and_CC family_NN ] (_: [NP i_PRP ] 'm_VBP based_VBN in_IN [NP new_NNP zealand_NNP ] ,_, but_CC come_VB from_IN [NP germany_NNP )_NNP ] ,_, [NP the_DT pay_NN ] is_VBZ good_JJ -_: and_CC [NP i_PRP ] never_RB even_RB see_VB [NP my_PRP$ phone_NN bill_NN ] even_RB though_IN [NP i_PRP ] use_VBP [NP my_PRP$ phone_NN ] for_IN [NP business_NN and_CC private_JJ things_NNS ] ._.",
+        "<START>_<START> [NP happy_NNP ] !_:"
+    ],
+    "c1j4xn2": [
+        "<START>_<START> [NP i_PRP ] work_VBP in_IN [NP computer_NN forensics_NNS ] and_CC [NP i_PRP ] watch_VBP [NP a_DT lot_NN ] of_IN [NP progress_NN bars_NNS ] ,_, so_RB [NP i_PRP ] tend_VBP to_TO surf_VB [NP reddit_NN ] [NP a_DT bit_NN ] ._."
+    ],
+    "c1j4xn1": [
+        "<START>_<START> [NP one_CD ] of_IN [NP the_DT easiest_JJS desk_NN jobs_NNS ] out_IN there_RB to_TO get_VB and_CC do_VB [NP is_VBZ ] to_TO work_VB in_IN [NP a_DT call_NN center_NN ] as_IN [NP a_DT customer_NN service_NN rep._NNP ] and_CC [NP they_PRP ] probably_RB constitute_VBP [NP the_DT majority_NN ] of_IN [NP desk_NN drone_NN jobs_NNS ] out_IN there_RB ._."
+    ],
+    "ccknykg": [
+        "<START>_<START> [NP pilot_NN ] ._.",
+        "<START>_<START> [NP do_NNP ] what_WP [NP your_PRP$ cabin_NN ] crew_VBD [NP ask_NN ] [NP you_PRP ] to_TO ,_, [NP they_PRP ] 're_VBP not_RB doing_VBG [NP it_PRP ] for_IN [NP a_DT power_NN trip_NN ] ,_, [NP they_PRP ] 're_VBP doing_VBG [NP it_PRP ] because_IN [NP they_PRP ] have_VBP to_TO ensure_VB [NP the_DT rules_NNS ] are_VBP followed_VBN ,_, and_CC [NP the_DT rules_NNS ] [NP we_PRP ] have_VBP are_VBP [NP all_DT ] in_IN [NP place_NN ] for_IN [NP a_DT reason_NN ] ._.",
+        "<START>_<START> also_RB ,_, please_VB [NP realise_NN ] how_WRB [NP much_JJ more_RBR potent_JJ alcohol_NN ] is_VBZ at_IN [NP altitude_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP illegal_JJ (_NN ] certainly_RB on_IN [NP a_DT uk-registered_JJ aircraft_NN ] )_: to_TO be_VB [NP drunk_NN onboard_NN ] ,_, and_CC [NP it_PRP ] will_MD go_VB to_TO [NP your_PRP$ head_NN ] much_RB much_RB faster_JJR than_IN [NP you_PRP ] think_VBP ._.",
+        "<START>_<START> to_TO quote_VB [NP one_CD man_NN ] [NP who_WP ] was_VBD n't_RB aware_JJ of_IN [NP this_DT phenomenon_NN ] :_: ``_`` [NP oh_UH god_NN ] ,_, [NP i_PRP ] 've_VBP never_RB been_VBN so_IN [NP drunk_NN ] in_IN [NP my_PRP$ life_NN ] ''_'' ._.",
+        "<START>_<START> [NP drunk_NN people_NNS ] that_WDT get_VB [NP aggressive_JJ ] will_MD usually_RB be_VB met_VBN at_IN [NP the_DT door_NN ] by_IN [NP some_DT very_RB big_JJ policemen_NNS ] with_IN [NP a_DT pair_JJ ] of_IN [NP handcuffs_NNS ] and_CC [NP a_DT night_NN ] in_IN [NP the_DT cells_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] 've_VBP seen_VBN [NP it_PRP ] happen_RB [NP a_DT number_NN ] of_IN [NP times_NNS ] in_IN [NP the_DT 4_CD years_NNS ] [NP i_PRP ] 've_VBP been_VBN working_VBG [NP onboard_NN ] ._."
+    ],
+    "c6po5zm": [
+        "<START>_<START> [NP i_PRP ] was_VBD [NP told_JJ something_NN ] similar_JJ at_IN [NP my_PRP$ last_JJ job_NN ] about_IN [NP my_PRP$ girlfriend_NN ] because_IN of_IN [NP all_DT the_DT crazy_NN hours_NNS ] [NP i_PRP ] was_VBD working_VBG and_CC [NP they_PRP ] were_VBD right_RB ._.",
+        "<START>_<START> [NP she_PRP ] left_VBD [NP me_PRP ] about_IN [NP a_DT year_NN ] into_IN [NP this_DT particular_JJ job_NN ] ._.",
+        "<START>_<START> [NP my_PRP$ best_JJS advice_NN ] is_VBZ [NP communication_NN ] ._.",
+        "<START>_<START> even_RB if_IN [NP you_PRP ] work_VBP [NP overtime_JJ every_NN single_JJ day_NN ] ._.",
+        "<START>_<START> call_NNP [NP him_PRP ] from_IN [NP work_NN ] and_CC let_VB [NP him_PRP ] know_VB [NP every_DT day_NN ] ._.",
+        "<START>_<START> [NP call_NNP ] [NP him_PRP ] again_RB when_WRB [NP you_PRP ] 're_VBP leaving_VBG [NP work_NN ] too_RB ._.",
+        "<START>_<START> [NP your_PRP$ relationship_NN ] is_VBZ probably_RB more_RBR healthy_JJ than_IN [NP mine_JJ ever_NN ] was_VBD ._.",
+        "<START>_<START> [NP she_PRP ] got_VBD jealous_JJ ._.",
+        "<START>_<START> [NP thought_NNP ] [NP i_PRP ] was_VBD n't_RB at_IN [NP work_NN ] [NP the_DT whole_JJ time_NN ] ._.",
+        "<START>_<START> [NP started_NNP getting_NN ] paranoid_VBD ._.",
+        "<START>_<START> and_CC [NP she_PRP ] was_VBD gone_VBN ._."
+    ],
+    "c1j5miy": [
+        "<START>_<START> [NP -lrb-_-LRB- ] deleted_VBN -llb-_-NONE-"
+    ],
+    "c1j5nmv": [
+        "<START>_<START> [NP sales_NNS ] right_VBD now_RB ,_, [NP nonprofit_JJ fundraising_NN ] in_IN [NP the_DT past_JJ ] ._."
+    ],
+    "cckioif": [
+        "<START>_<START> [NP web_NNP developer_NNP ] ._.",
+        "<START>_<START> [NP keep_NNP your_PRP$ browser_NN ] up_RP to_TO [NP date_NN ] ,_, and_CC preferably_RB avoid_VBD [NP internet_NNP explorer_NNP ] altogether_RB ._."
+    ],
+    "cckpvdm": [
+        "<START>_<START> [NP do_NNP your_PRP$ best_JJS ] to_TO not_RB be_VB black_JJ ,_, or_CC [NP hispanic_NNP source_NNP ] :_: [NP cop_NNP ]"
+    ],
+    "c2p6ika": [
+        "<START>_<START> [NP i_PRP ] can_MD tell_VB [NP you_PRP ] [NP this_DT ] ._.",
+        "<START>_<START> 1_LS ._.",
+        "<START>_<START> [NP i_PRP ] do_VBP [NP maybe_RB 1_CD /_CD 2_CD work_NN ] in_IN [NP an_DT 8_CD day_NN ] ._.",
+        "<START>_<START> 2_LS ._.",
+        "<START>_<START> [NP i_PRP ] never_RB see_VB [NP my_PRP$ boss_NN ] ._.",
+        "<START>_<START> 3_LS ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP paid_VBN [NP wayyyy_NN ] more_RBR than_IN [NP i_PRP ] should_MD ._.",
+        "<START>_<START> 4_LS ._.",
+        "<START>_<START> [NP i_PRP ] take_VBP [NP lunch_NN whenever_NN ] [NP i_PRP ] want_VBP for_IN [NP however_RB long_JJ ] [NP i_PRP ] want_VBP ._.",
+        "<START>_<START> 5_LS ._.",
+        "<START>_<START> [NP i_PRP ] pretty_RB much_RB make_VB up_RP [NP answers_NNS ] as_IN [NP i_PRP ] go_VBP ._.",
+        "<START>_<START> [NP i_PRP ] have_VBP never_RB been_VBN in_IN [NP such_JJ a_DT good_JJ position_NN ] in_IN [NP my_PRP$ life_NN ] and_CC felt_VBD so_RB shitty_RB about_IN [NP it_PRP ] ._.",
+        "<START>_<START> [NP you_PRP ] sound_VBD like_IN [NP you_PRP ] went_VBD to_TO [NP school_NN ] because_IN [NP thats_NNS ] [NP what_WP youre_NN ] ``_`` supposed_VBN to_TO do_VB ''_'' ._.",
+        "<START>_<START> ``_`` when_WRB [NP life_NN ] gives_VBZ [NP you_PRP ] [NP lemons_NNS ] ,_, say_VBP [NP fuck_NN ] [NP it_PRP ] and_CC [NP bail_NN ] ''_'' [NP p.s_NNP ] ._.",
+        "<START>_<START> [NP move_NN ] to_TO [NP texas_NNP ] and_CC become_VB [NP mexican_NNP ] ,_, chicks_VBZ [NP love_JJ mexicans_NNS ] ._."
+    ],
+    "c1j5gsb": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT business_NN analyst_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] suggest_VBP [NP process_NN improvements_NNS ] ,_, [NP manage_NN software_NN changes_NNS ] and_CC provide_VB [NP data_NNS support_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] has_VBZ also_RB been_VBN suggested_VBN that_IN [NP i_PRP ] just_RB make_VBP shit_JJ up_IN ._."
+    ],
+    "cfy5z7d": [
+        "<START>_<START> late_RB to_TO [NP the_DT party_NN but_CC ] :_: [NP i_PRP ] work_VBP as_RB [NP a_DT beer_NN salesman_NN ] ,_, [NP which_WDT ] nets_NNS [NP me_PRP ] about_IN [NP 15,000_CD $_$ ] before_IN [NP taxes_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] also_RB work_VB as_IN [NP an_DT esports-journalist_JJ ] ,_, [NP which_WDT ] is_VBZ more_RBR of_IN [NP a_DT hobby_NN ] ,_, [NP nets_NNS ] [NP me_PRP ] maybe_RB [NP 1k_CD ] ._.",
+        "<START>_<START> [NP im_NNP also_RB ] [NP a_DT sound_JJ technician_NN ] ,_, [NP which_WDT ] nets_NNS [NP me_PRP ] about_IN [NP 5k_CD ] ._.",
+        "<START>_<START> [NP all_DT ] of_IN [NP this_DT ] is_VBZ [NP jobs_NNS ] on_IN [NP the_DT side_NN ] ,_, as_IN [NP i_PRP ] attend_VBP [NP university_NN ] ._.",
+        "<START>_<START> [NP beer_NN salesman_NN ] is_VBZ [NP 4_CD /_CD 10_CD ] ._.",
+        "<START>_<START> [NP i_PRP ] like_VBP [NP it_PRP ] when_WRB [NP i_PRP ] work_VBP alone_RB ,_, but_CC when_WRB [NP i_PRP ] have_VBP to_TO work_VB with_IN [NP people_NNS ] [NP it_PRP ] sucks_VBZ ,_, as_IN [NP my_PRP$ co-workers_NNS ] are_VBP [NP dicks_NNS ] ._.",
+        "<START>_<START> also_RB [NP i_PRP ] often_RB work_VBP [NP 14+_CD hours_NNS ] [NP a_DT day_NN ] ._.",
+        "<START>_<START> [NP the_DT other_JJ jobs_NNS ] is_VBZ [NP 10_CD /_CD 10_CD ] ,_, would_MD like_VB [NP a_DT career_NN ] in_IN [NP one_CD ] of_IN [NP those_DT ] ._.",
+        "<START>_<START> [NP i_PRP ] also_RB used_VBD to_TO be_VB [NP a_DT musician_JJ ] ,_, [NP which_WDT ] got_VBD [NP me_PRP ] [NP some_DT pocket_NN money_NN ] ._.",
+        "<START>_<START> [NP 20_CD y_NN ] /_: [NP o_NN ] ,_, [NP norway_NNP ] ._."
+    ],
+    "cckjk1b": [
+        "<START>_<START> [NP private_JJ eye_NNP ] here_RB ,_, [NP please_NN come_NN ] outside_IN [NP each_DT day_NN ] in_IN [NP the_DT mid_NN morning_NN ] and_CC do_VBP [NP cartwheels_NNS ] ._."
+    ],
+    "cckgy6l": [
+        "<START>_<START> [NP fast_NNP food-_NNP please_NN ] know_VB [NP what_WP ] [NP you_PRP ] want_VBP when_WRB [NP you_PRP ] pull_VBP into_IN [NP the_DT drive_JJ through_IN ] ._.",
+        "<START>_<START> at_IN least_JJS within_IN [NP 2_CD minutes_NNS ] of_IN pulling_VBG in_IN ._.",
+        "<START>_<START> if_IN [NP you_PRP ] have_VBP [NP kids_NNS ] ,_, ask_NN [NP them_PRP ] during_IN [NP the_DT drive_JJ ] to_TO [NP the_DT fast_NN food_NN place_NN ] ._."
+    ],
+    "c63irew": [
+        "<START>_<START> [NP i_PRP ] chop_VBP [NP things_NNS ] that_IN [NP people_NNS ] will_MD soon_RB eat_VB ._.",
+        "<START>_<START> [NP i_PRP ] do_VBP n't_RB talk_VB to_TO [NP customers_NNS ] or_CC [NP my_PRP$ manager_NN ] or_CC [NP even_RB my_PRP$ few_JJ coworkers_NNS ] if_IN [NP i_PRP ] so_RB choose_RB ._.",
+        "<START>_<START> [NP i_PRP ] just_RB chop_VB [NP things_NNS ] ._.",
+        "<START>_<START> [NP it_PRP ] makes_VBZ [NP college_NN more_JJR tolerable_JJ ] ._."
+    ],
+    "cckjiff": [
+        "<START>_<START> [NP pharmacist_NNP ] ._.",
+        "<START>_<START> 1_LS ._.",
+        "<START>_<START> [NP please_NN ] be_VB [NP a_DT little_RB patient_NN ] ._.",
+        "<START>_<START> just_RB because_IN [NP there_EX ] is_VBZ [NP a_DT drive_JJ thru_NN ] does_VBZ not_RB mean_VB [NP this_DT ] is_VBZ [NP a_DT fast-food_NN type_NN deal_NN ] ._.",
+        "<START>_<START> 2_LS ._.",
+        "<START>_<START> if_IN [NP your_PRP$ doctor_NN ] did_VBD n't_RB send_VB [NP a_DT prescription_NN ] or_CC [NP you_PRP ] did_VBD n't_RB request_NN [NP refills_NNS ] ,_, [NP there_EX ] is_VBZ very_RB little_JJ [NP i_PRP ] can_MD do_VB and_CC yelling_VBG at_IN [NP me_PRP ] turns_VBZ [NP it_PRP ] into_IN [NP there_EX ] is_VBZ [NP nothing_NN ] [NP i_PRP ] can_MD do_VB ._.",
+        "<START>_<START> 3_LS ._.",
+        "<START>_<START> [NP same_NNP ] goes_VBZ for_IN [NP insurance_NN ] ._.",
+        "<START>_<START> if_IN [NP you_PRP prescription_NN ] is_VBZ [NP $_$ 3.00_CD today_NN ] and_CC [NP it_PRP ] was_VBD [NP $_$ 2.00_CD ] [NP last_JJ month_NN ] ,_, [NP that_WDT ] is_VBZ something_VBG to_TO take_VB up_RP with_IN [NP your_PRP$ insurance_NN company_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] can_MD not_RB just_RB change_VB [NP it_PRP ] ._.",
+        "<START>_<START> 4_LS ._.",
+        "<START>_<START> in_IN general_JJ for_IN retail_JJ :_: [NP the_DT people_NNS ] helping_VBG [NP you_PRP ] are_VBP doing_VBG just_RB that_IN ,_, helping_VBG [NP you_PRP ] ._.",
+        "<START>_<START> [NP the_DT general_JJ population_NN ] is_VBZ [NP horrible_JJ towards_NNS ] [NP retail_JJ workers_NNS ] ,_, for_IN [NP no_DT real_JJ reason_NN ] other_JJ than_IN [NP they_PRP ] can_MD ._.",
+        "<START>_<START> [NP try_NNP ] to_TO be_VB kind_JJ ._."
+    ],
+    "c1j4x38": [
+        "<START>_<START> [NP document_NNP control_NNP ] ._.",
+        "<START>_<START> [NP documents_NNS ] come_VBP in_IN ,_, [NP i_PRP ] have_VBP to_TO store_VB [NP them_PRP ] in_IN [NP the_DT system_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP a_DT lot_NN more_RBR work_NN ] than_IN [NP it_PRP ] sounds_VBZ as_IN [NP the_DT people_NNS ] before_IN [NP me_PRP ] never_RB do_VBP [NP their_PRP$ job_NN ] so_IN [NP everything_NN ] is_VBZ always_RB [NP a_DT spacial_JJ case_NN ] with_IN [NP lots_NNS ] of_IN fixing_VBG to_TO do_VB &_CC lt_VB ;_: [NP ._. &_CC lt_NN ] ;_:"
+    ],
+    "c1j59tc": [
+        "<START>_<START> [NP excel_NN spreadsheets_NNS ] need_VBP filling_VBG and_CC [NP i_PRP ] get_VBP to_TO [NP do_NNP ] [NP it_PRP ] ..._: yay_NN"
+    ],
+    "c2p4rqy": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT self-employed_JJ web_NN developer_NN ] ._.",
+        "<START>_<START> lately_RB [NP i_PRP ] 've_VBP been_VBN basically_RB working_VBG full-time_JJ for_IN [NP a_DT local_JJ company_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] have_VBP [NP final_JJ say_NN ] in_IN [NP deadlines_NNS ] and_CC [NP technology_NN ] involved_VBD ._.",
+        "<START>_<START> [NP i_PRP ] am_VBP paid_VBN very_RB well_RB and_CC show_NN up_RP to_TO [NP the_DT office_NN maybe_NN ] [NP 2-3_CD times_NNS ] [NP a_DT week_NN ] ._.",
+        "<START>_<START> [NP the_DT only_JJ thing_NN ] [NP i_PRP ] 'd_MD like_VB [NP more_RBR ] is_VBZ to_TO have_VB [NP someone_NN ] helping_VBG [NP me_PRP ] out_RP ._."
+    ],
+    "c2p355m": [
+        "<START>_<START> [NP database_NN admin_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP to_TO browse_VB [NP reddit_NN ] over_IN [NP a_DT ds3_NNP ] ._."
+    ],
+    "c2p4rqr": [
+        "<START>_<START> [NP upvote_NNP ] for_IN [NP local_NNP love_NNP ] ._.",
+        "<START>_<START> [NP lakewood_NNP ] ,_, [NP co_NNP ] here_RB ._."
+    ],
+    "c2p7ni9": [
+        "<START>_<START> [NP steve_NNP ] did_VBD ._.",
+        "<START>_<START> [NP he_PRP ] talks_VBZ in_IN [NP detail_NN ] about_IN loving_VBG [NP your_PRP$ work_NN ] in_IN [NP his_PRP$ 2005_CD stanford_NNP commencement_NNP speech_NN ] :_: [NP http_NN ] :_: /_: /_: [NP www.youtube.com_JJ /_NN watch_NN ] ?_. v=uf8ur6z6klc_JJ"
+    ],
+    "c2p5iqy": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT shipper_NN ] /_: [NP receiver_NN ] ,_, [NP my_PRP$ job_NN consists_NNS ] of_IN [NP 10_CD %_NN ] of_IN [NP the_DT aforementioned_VBN and_CC 90_CD %_NN browsing_NN reddit_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ also_RB enjoyable_JJ because_IN [NP my_PRP$ boss_NN loves_NNS ] to_TO drink_VB at_IN [NP the_DT office_NN ] ._."
+    ],
+    "c1j4j1l": [
+        "<START>_<START> [NP web_NNP developper_NN ] for_IN [NP a_DT cityhall_NN ] ._."
+    ],
+    "cckf622": [
+        "<START>_<START> [NP federal_NNP employee_NN stop_NNP voting_NN ] for_IN [NP assholes_NNS ] who_WP keep_VB furloughing_VBG [NP me_PRP ]"
+    ],
+    "c2p47o1": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP consumer_NN mortgage_NN specialist_NN ] ,_, but_CC in_IN [NP short_JJ i_PRP ] am_VBP [NP a_DT support_NN agent_NN ] for_IN [NP our_PRP$ bank_NN ] [NP 's_POS loan_NN officers_NNS ] ._.",
+        "<START>_<START> [NP most_JJS people_NNS ] [NP who_WP work_NN ] in_IN [NP a_DT call_NN center_NN ] say_VB [NP they_PRP ] hate_VBP [NP their_PRP$ cubicle_NN job_NN ] ._.",
+        "<START>_<START> but_CC [NP i_PRP ] love_VBP mine_JJ ._.",
+        "<START>_<START> [NP i_PRP ] am_VBP taking_VBG [NP calls_NNS ] from_IN [NP people_NNS ] [NP who_WP ] [NP i_PRP ] am_VBP actually_RB able_JJ to_TO help_VB ,_, and_CC in_IN [NP turn_NN ] [NP i_PRP ] make_VBP [NP them_PRP ] happier_JJR and_CC [NP their_PRP$ day_NN ] better_JJR ._.",
+        "<START>_<START> unlike_IN [NP customers_NNS ] ,_, [NP most_JJS ] of_IN [NP my_PRP$ callers_NNS ] are_VBP overjoyed_VBN when_WRB [NP i_PRP ] am_VBP [NP done_NN ] with_IN [NP their_PRP$ call_NN ] because_IN [NP most_JJS ] of_IN [NP the_DT time_NN ] [NP i_PRP ] fixed_VBD [NP a_DT problem_NN ] [NP they_PRP ] may_MD have_VB been_VBN dealing_VBG with_IN for_IN [NP hours_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP that_IN after_IN [NP each_DT call_NN ] ,_, [NP i_PRP ] am_VBP [NP done_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] do_VBP n't_RB have_VB [NP any_DT extra_JJ stress_NN ] when_WRB [NP i_PRP ] go_VBP home_RB because_IN [NP i_PRP ] have_VBP [NP a_DT list_NN ] of_IN [NP items_NNS ] [NP i_PRP ] need_VBP to_TO complete_VB [NP the_DT next_JJ day_NN ] ._.",
+        "<START>_<START> [NP each_DT call_NN ] is_VBZ [NP its_PRP$ own_JJ and_CC ] when_WRB [NP i_PRP ] hang_VBP up_RP with_IN [NP the_DT caller_NN ] that_IN [NP 's_POS it_PRP ] ._.",
+        "<START>_<START> [NP it_PRP ] also_RB helps_VBZ that_IN [NP i_PRP ] know_VBP [NP the_DT person_NN ] [NP 's_POS manager_NN ] so_IN if_IN [NP they_PRP ] are_VBP rude_VBP to_TO [NP me_PRP ] [NP i_PRP ] can_MD escalate_VB [NP it_PRP ] if_IN [NP needed_VBN ] ._.",
+        "<START>_<START> [NP most_JJS support_NN agents_NNS ] [NP who_WP ] deal_NN with_IN [NP customer_NN ] just_RB have_VBP to_TO take_VB [NP some_DT yelling_VBG or_CC abuse_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ not_RB [NP a_DT bad_JJ gig_NN ] ._.",
+        "<START>_<START> [NP gives_NNS ] [NP me_PRP ] absolutely_RB [NP no_DT stress_NN ] but_CC yet_RB makes_VBZ [NP me_PRP ] feel_VBP happy_JJ to_TO make_VB [NP others_NNS ] happy_JJ ._."
+    ],
+    "c2p5gh6": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT seamstress_NN ] [NP who_WP ] gets_VBZ [NP a_DT lot_NN ] of_IN [NP pleasure_NN ] out_IN of_IN [NP tracking_NN ] down_IN [NP the_DT perfect_NN fabric_JJ ] ._.",
+        "<START>_<START> not_RB always_RB easy_JJ to_TO come_VB by_IN ,_, but_CC damn_RB [NP it_PRP ] makes_VBZ [NP the_DT suit_NN ] looks_VBZ good_JJ ._."
+    ],
+    "c1j56q4": [
+        "<START>_<START> [NP that_DT ] 's_VBZ [NP a_DT very_RB difficult_JJ question_NN ] ,_, [NP i_PRP ] just_RB sit_VB [NP infront_NN ] of_IN [NP my_PRP$ pc_NN and_CC browse_NN reddit_NN ] [NP all_DT the_DT time_NN ] ..._: and_CC for_IN [NP like_IN 2-3_CD hours_NNS ] of_IN [NP actual_JJ work_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] code_VBP [NP mobile_JJ software_NN ] ._."
+    ],
+    "c1j5aeh": [
+        "<START>_<START> [NP i_PRP ] work_VBP for_IN [NP the_DT court_NN system_NN ] sending_VBG [NP people_NNS ] to_TO jail_VB ,_, sometimes_RB or_CC releasing_VBG [NP them_PRP ] ..._: [NP depends_NNS ] on_IN [NP how_WRB enthralling_VBG reddit_NN ] is_VBZ that_IN [NP day_NN ] ._.",
+        "<START>_<START> [NP a_DT bad_JJ reddit_NN day_NN ] is_VBZ bad_JJ for_IN [NP alot_NN people_NNS ] ._."
+    ],
+    "c63weiu": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT general_JJ manager_NN ] for_IN [NP a_DT strip_NN club_NN ] ._.",
+        "<START>_<START> before_IN [NP you_PRP ] ask_VBP ,_, [NP i_PRP ] do_VBP n't_RB sleep_VB with_IN [NP the_DT girls_NNS ] ._.",
+        "<START>_<START> [NP you_PRP ] do_VBP n't_RB put_VB [NP your_PRP$ dick_NN ] in_IN [NP the_DT cash_NN register_NN ] ._."
+    ],
+    "cfxrfgj": [
+        "<START>_<START> [NP software_NN engineer_NNP ] ._.",
+        "<START>_<START> [NP $_$ 80k_CD /_CD year_NN 9_CD /_CD 10_CD 23_CD years_NNS ] old_JJ [NP there_EX ] are_VBP [NP some_DT days_NNS ] [NP the_DT work_NN ] is_VBZ n't_RB interesting_JJ ._.",
+        "<START>_<START> but_CC [NP the_DT company_NN ] [NP i_PRP ] work_VBP for_IN is_VBZ fantastic_JJ and_CC [NP there_EX ] 's_VBZ never_RB [NP a_DT shortage_NN ] of_IN [NP work_NN ] to_TO do_VB ._.",
+        "<START>_<START> [NP i_PRP ] could_MD make_VB [NP a_DT lot_NN ] more_RBR if_IN [NP i_PRP ] moved_VBD to_TO [NP they_PRP ] [NP bay_NNP area_NNP ] ,_, but_CC [NP i_PRP ] 'm_VBP happy_JJ where_WRB [NP i_PRP ] 'm_VBP at_IN ._.",
+        "<START>_<START> [NP edit_NN ] :_: [NP i_PRP ] work_VBP for_IN [NP a_DT small_JJ company_NN ] in_IN [NP southern_NNP california_NNP ] ._.",
+        "<START>_<START> [NP we_PRP ] build_VBP [NP ios_NNP and_CC web_NN applications_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] primarily_RB work_VB with_IN [NP cocoa_NNP touch_NNP ] ,_, [NP rails_NNP ] and_CC [NP go_NNP ] ._."
+    ],
+    "c2p4edz": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT lower_JJR elementary_JJ special_JJ education_NN teacher_NN ] ._.",
+        "<START>_<START> [NP last_JJ year_NN ] [NP i_PRP ] taught_VBD [NP a_DT child_NN ] with_IN [NP fetal_NNP alcohol_NNP syndrome_NNP ] to_TO read_VB and_CC helped_VBN [NP her_PRP$ grow_NN three_CD grade_NN levels_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] also_RB helped_VBD [NP a_DT behaviorally_RB challenged_VBN 8_CD year_NN old_JJ student_NN ] [NP who_WP ] was_VBD first_JJ described_VBN to_TO [NP me_PRP ] as_IN having_VBG ``_`` [NP one_CD foot_NN ] in_IN [NP jail_NN ] and_CC [NP the_DT other_JJ ] in_IN [NP a_DT gang_NN ] ''_'' to_TO winning_VBG [NP the_DT end_NN ] of_IN [NP year_NN ] award_IN [NP for_IN best_JJS behavior_NN ] in_IN [NP his_PRP$ grade_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] also_RB helped_VBD ended_VBN [NP the_DT cycle_NN ] of_IN [NP abusive_JJ special_JJ education_NNP teachers_NNS ] at_IN [NP my_PRP$ school_NN ] and_CC helped_VBD [NP an_DT entire_JJ population_NN ] of_IN [NP a_DT community_NN ] prove_NN [NP the_DT rest_NN ] of_IN [NP it_PRP ] wrong_IN ._.",
+        "<START>_<START> [NP i_PRP ] [NP no_DT longer_NN care_NN ] [NP that_WDT ] [NP i_PRP ] work_VBP [NP 80_CD hour_NN work_NN ] weeks_NNS for_IN [NP what_WP ] [NP works_NNS ] out_IN to_TO [NP almost_RB minimum_JJ wage_NN ] and_CC [NP i_PRP ] honestly_RB ca_MD n't_RB believe_VB [NP i_PRP ] 'm_VBP actually_RB paid_VBN to_TO hang_VB out_RP with_IN [NP these_DT amazing_VBG kids_NNS ] [NP all_DT day_NN ] ._."
+    ],
+    "cckjlie": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT server_NN ] ._.",
+        "<START>_<START> [NP please_NN ] do_VBP n't_RB be_VB rude_VBN ._.",
+        "<START>_<START> [NP please_NN ] be_VB [NP patient_NN ] if_IN [NP you_PRP ] notice_VBP that_IN [NP i_PRP ] also_RB have_VBP [NP other_JJ tables_NNS ] ,_, [NP i_PRP ] will_MD get_VB [NP your_PRP$ refill_NN ] as_IN [NP soon_RB ] as_IN [NP i_PRP ] am_VBP [NP done_NN ] taking_VBG that_IN [NP other_JJ tables_NNS ] order_IN ._.",
+        "<START>_<START> [NP prebussing_VBG ] is_VBZ nice_JJ ._.",
+        "<START>_<START> [NP verbal_NNP tips_NNS ] are_VBP nice_JJ ,_, but_CC please_VB [NP stick_NN ] to_TO [NP cash_NN ] -_: [NP i_PRP ] make_VBP [NP $_$ 2.13_CD /_CD hr_NN and_CC depend_NN ] on_IN [NP your_PRP$ generosity_NN ] to_TO pay_VB [NP my_PRP$ bills_NNS ] ._."
+    ],
+    "cckmv71": [
+        "<START>_<START> [NP pharmacy_NN technician_JJ please_NNP ] have_VBP [NP your_PRP$ insurance_NN card_NN ] ready_RB before_IN [NP you_PRP ] get_VBP to_TO [NP the_DT counter_NN ] ,_, especially_RB if_IN [NP you_PRP ] have_VBP n't_RB filled_VBN with_IN [NP us_PRP ] before_IN ._.",
+        "<START>_<START> [NP realize_NNP ] that_IN [NP we_PRP ] do_VBP more_JJR than_IN [NP just_RB put_VBN pills_NNS ] in_IN [NP a_DT bottle_NN ] ,_, [NP a_DT lot_NN ] more_RBR ._."
+    ],
+    "c2p69ga": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT paralegal_JJ ] and_CC absolutely_RB love_VB [NP it_PRP ] ._.",
+        "<START>_<START> [NP the_DT law_NN ] is_VBZ fascinating_VBG and_CC challenging_VBG so_RB [NP it_PRP ] 's_VBZ never_RB [NP a_DT dull_JJ moment_NN ] ,_, at_IN least_JJS in_IN [NP our_PRP$ office_NN ] ,_, and_CC [NP each_DT case_NN ] is_VBZ like_IN [NP its_PRP$ own_JJ unique_NN story_NN ] that_IN [NP you_PRP ] get_VBP to_TO be_VB apart_RB of_IN from_IN [NP beginning_NN ] to_TO end_VB ._.",
+        "<START>_<START> at_IN [NP our_PRP$ firm_NN ] ,_, [NP i_PRP ] draft_VBP [NP a_DT fair_JJ amount_NN ] of_IN [NP documents_NNS ] ,_, including_VBG [NP demand_NN letters_NNS ] ,_, [NP correspondence_NN ] ,_, lien_VBN [NP notices_NNS and_CC claims_NNS ] ,_, [NP deeds_NNS ] ,_, [NP promissory_NN notes_NNS ] ,_, [NP settlement_NN agreements_NNS ] ,_, [NP eeoc_NNP charges_NNS ] ,_, [NP unemployment_NN ] claims_VBZ and_CC [NP challenges_NNS ] ,_, as_IN well_RB as_IN [NP legal_JJ documents_NNS ] for_IN [NP litigation_NN ] such_JJ as_IN [NP pleadings_NNS ] ,_, [NP discovery_NN ] ,_, [NP a_DT few_JJ motions_NNS ] ,_, [NP etc_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] also_RB do_VBP [NP a_DT significant_JJ amount_NN ] of_IN [NP research_NN ] --_: [NP which_WDT ] [NP i_PRP ] love_VBP --_: including_VBG [NP legal_JJ research_NN ] ,_, [NP fact_NN ] based_VBN [NP /_-NONE- investigative_JJ ,_, and_CC skip_NN tracing_VBG (_NN ] trying_VBG to_TO locate_VB [NP people_NNS ] )_: ._.",
+        "<START>_<START> [NP i_PRP ] also_RB correspondent_VBD frequently_RB with_IN [NP the_DT court_NN ] ,_, [NP clients_NNS ] ,_, [NP etc._NNP ] ,_, [NP calendar_NN important_JJ dates_NNS ] ,_, help_VB [NP organize_NN exhibits_NNS ] and_CC prepare_VB for_IN [NP trial_NN ] ._.",
+        "<START>_<START> basically_RB [NP i_PRP ] do_VBP whatever_RB needs_VBZ to_TO be_VB done_VBN ,_, ranging_VBG from_IN [NP administrative_JJ tasks_NNS ] to_TO [NP more_JJR complex_JJ ,_, legal_JJ tasks_NNS ] ,_, to_TO [NP even_RB ``_`` problem_NN ] solver_RB /_. troubleshooter_NN ''_'' --_: especially_RB for_IN [NP computer_NN related_VBN issues_NNS ] ._.",
+        "<START>_<START> [NP none_NN ] of_IN [NP my_PRP$ attorneys_NNS ] are_VBP [NP very_RB tech_JJ savvy_NN ,_, lol_NN ] ._.",
+        "<START>_<START> unlike_IN [NP previous_JJ jobs_NNS ] [NP i_PRP ] 've_VBP held_VBN in_IN [NP the_DT service_NN sector_NN ] ,_, [NP i_PRP ] 've_VBP never_RB woken_VBN up_RP and_CC wished_VBD [NP i_PRP ] did_VBD n't_RB have_VB to_TO go_VB into_IN [NP work_NN ] ,_, and_CC [NP i_PRP ] 've_VBP never_RB looked_VBN at_IN [NP the_DT clock_NN ] and_CC wondered_VBD why_WRB [NP it_PRP ] was_VBD n't_RB later_JJ ._.",
+        "<START>_<START> in_IN [NP fact_NN ] ,_, [NP the_DT day_NN ] seems_VBZ to_TO [NP fly_RB by_IN ] and_CC then_RB [NP i_PRP ] 'm_VBP [NP home_NN ] ._."
+    ],
+    "ccklub7": [
+        "<START>_<START> [NP game_NNP developer_NN ] here_RB ._.",
+        "<START>_<START> just_RB shut_VBN up_RP ._.",
+        "<START>_<START> [NP we_PRP ] dont_VBP [NP care_NN ] about_IN [NP your_PRP$ stupid_JJ ideas_NNS ] for_IN [NP our_PRP$ game_NN ] ._.",
+        "<START>_<START> [NP we_PRP ] do_VBP n't_RB want_VB [NP your_PRP$ fanfic_NN ] about_IN [NP our_PRP$ under_IN 18_CD characters_NNS ] ,_, and_CC [NP you_PRP ] can_MD keep_VB that_IN [NP pic_JJ ] [NP you_PRP ] drew_VBD of_IN [NP masterchief_NN and_CC gordon_NN freeman_NN ] making_VBG out_RP ._."
+    ],
+    "cfy2ddf": [
+        "<START>_<START> surprisingly_RB [NP i_PRP ] 'm_VBP [NP a_DT electrician_JJ ] ._.",
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP 24_CD ] and_CC make_VB [NP $_$ 175_CD 000_CD ] [NP a_DT year_NN ] and_CC would_MD probably_RB say_VB [NP 9.5_CD /_CD 10_CD ] for_IN [NP what_WP ] [NP i_PRP ] do_VBP ,_, but_CC [NP 3_LS ] /_: [NP 10_CD ] for_IN where_WRB [NP i_PRP ] 'm_VBP currently_RB employed_VBN because_IN [NP my_PRP$ boss_NN ] is_VBZ [NP easily_RB one_CD ] of_IN [NP the_DT worst_JJS bosses_NNS ] [NP i_PRP ] could_MD possibly_RB imagine_VB ._."
+    ],
+    "c2p35jm": [
+        "<START>_<START> [NP economics_NNS ] ._.",
+        "<START>_<START> usually_RB [NP it_PRP ] 's_VBZ [NP a_DT springboard_NN ] to_TO grad_VB [NP school_NN ] ,_, but_CC [NP i_PRP ] have_VBP [NP no_DT desire_NN ] to_TO go_VB back_RB to_TO [NP school_NN ] again_RB ._.",
+        "<START>_<START> [NP i_PRP ] would_MD n't_RB graduate_VB until_IN [NP age_NN 30_CD or_CC so_RB ] ;_: [NP it_PRP ] just_RB does_VBZ n't_RB seem_VB worth_JJ [NP it_PRP ] unless_IN [NP i_PRP ] really_RB decide_VBP [NP i_PRP ] want_VBP to_TO be_VB [NP a_DT lawyer_NN ] or_CC [NP a_DT doctor_NN or_CC something_NN ] ,_, and_CC even_RB then_RB [NP i_PRP ] 'm_VBP not_RB sure_JJ [NP i_PRP ] could_MD hack_VB [NP it_PRP ] academically_RB ._."
+    ],
+    "ccki5x9": [
+        "<START>_<START> [NP children_NNP ] [NP 's_POS nurse-_NNP please_NN ] ,_, [NP please_NN ] ,_, [NP *please*_-NONE- ] understand_VBP that_IN [NP yes_NNS ] ,_, of_IN [NP course_NN ] [NP i_PRP ] understand_VBP that_IN [NP your_PRP$ priority_NN ] is_VBZ [NP your_PRP$ child_NN ] ,_, but_CC [NP i_PRP ] have_VBP to_TO split_VB [NP my_PRP$ time_NN ] between_IN [NP three_CD patients_NNS ] and_CC that_IN [NP means_NNS ] [NP i_PRP ] might_MD be_VB [NP a_DT few_JJ minutes_NNS ] late_JJ with_IN [NP their_PRP$ meds_NNS ] ._.",
+        "<START>_<START> [NP please_NN ] do_VBP n't_RB press_VB [NP your_PRP$ call_NN bell_NN ] at_IN [NP 17:55_CD ] to_TO ask_VB where_WRB [NP the_DT 6_CD o'clock_NN meds_NNS ] are_VBP ._."
+    ],
+    "c1j4set": [
+        "<START>_<START> [NP software_NN engineer_NN ] ._.",
+        "<START>_<START> without_IN [NP guys_NNS ] like_IN [NP us_PRP ] ,_, [NP you_PRP ] would_MD n't_RB have_VB [NP any_DT cool_NN shit_NN ] on_IN [NP your_PRP$ computer_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] was_VBD [NP one_CD ] of_IN [NP those_DT guys_NNS ] that_IN [NP put_NN stuff_NN ] on_IN [NP dvds_NNP (_NNP ] until_IN [NP i_PRP ] ``_`` sexually_RB harassed_VBN ''_'' [NP some_DT dude_NN ] that_IN looked_VBN like_IN [NP ron_NNP jeremy_NNP )_NNP ] ._.",
+        "<START>_<START> then_RB [NP i_PRP ] programmed_VBD [NP missiles_NNS ] ._.",
+        "<START>_<START> [NP hated_NNP the_DT idea_NN ] [NP i_PRP ] was_VBD working_VBG on_IN [NP weapons_NNS ] of_IN [NP destruction_NN ] ,_, so_RB when_WRB [NP they_PRP ] laid_VBP [NP me_PRP ] off_IN ,_, [NP i_PRP ] celebrated_VBD ._.",
+        "<START>_<START> now_RB ,_, [NP i_PRP ] 'm_VBP working_VBG for_IN [NP myself_PRP ] writing_VBG [NP android_NNP apps_NNS ] ._."
+    ],
+    "c63ppmr": [
+        "<START>_<START> [NP i_PRP ] make_VBP [NP ps3_NNP /_NNP ps_NNP vita_NNP games_NNS ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP a_DT great_JJ deal_NN ] of_IN [NP fun_NN ] ._.",
+        "<START>_<START> [NP there_EX ] are_VBP [NP always_RB challenges_NNS ] ,_, whether_IN [NP it_PRP ] be_VB with_IN [NP the_DT software_NN or_CC hardware_NN ] ,_, and_CC yep_VB ..._: ._.",
+        "<START>_<START> [NP nothing_NN ] weird_VBD ,_, [NP just_RB lucky_JJ ] as_IN [NP hell_NN ] to_TO be_VB able_JJ to_TO do_VB [NP what_WP ] [NP i_PRP ] 've_VBP always_RB wanted_VBN to_TO do_VB since_IN [NP i_PRP ] was_VBD [NP 8_CD ] ._."
+    ],
+    "cckig4e": [
+        "<START>_<START> [NP environmental_NNP ] ecologist_VBP ,_, [NP academic_JJ ] -_: [NP encourage_NN ] [NP nsf_NNP funding_NN ] ,_, do_VBP n't_RB fertilize_VB [NP your_PRP$ lawn_NN ] [NP just_RB mulch_JJ the_DT clippings_NNS ] ,_, do_VBP n't_RB pour_VB [NP oil_NN ] into_IN [NP storm_NN sewers_NNS ] ._."
+    ],
+    "cckivr8": [
+        "<START>_<START> [NP itt_NNP ] :_: dont_NNP be_VB [NP a_DT dick_NN ] to_TO [NP me_PRP ]"
+    ],
+    "c63ppmt": [
+        "<START>_<START> [NP yep_NNP ] ._.",
+        "<START>_<START> [NP unix_NNP systems_NNS engineer_NN ] /_: [NP administrator_NN ] here_RB ._.",
+        "<START>_<START> [NP its_PRP$ pretty_NN ] [NP much_RB the_DT job_NN ] [NP i_PRP ] 've_VBP wanted_VBN since_IN [NP half_NN way_NN ] through_IN [NP highschool_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP to_TO do_VB [NP what_WP ] [NP i_PRP ] enjoy_VBP at_IN [NP a_DT fairly_RB relaxed_VBN pace_NN ] for_IN [NP good_JJ pay_NN ] :_: -_: )_: feelsgoodman.jpg_JJ"
+    ],
+    "cckih0t": [
+        "<START>_<START> used_JJ to_TO [NP clean_JJ office_NN buildings_NNS ] during_IN [NP high_JJ school_NN ] ._.",
+        "<START>_<START> [NP open_NNP glass_NN doors_NNS ] using_VBG [NP the_DT handle_NN ] /_: [NP knob_NN ] ,_, do_VBP n't_RB push_VB on_IN [NP the_DT glass_NN ] with_IN [NP your_PRP$ hand_NN ] ,_, [NP it_PRP ] gets_VBZ very_RB smudgy_JJ ._."
+    ],
+    "c63ppmy": [
+        "<START>_<START> obviously_RB [NP you_PRP ] will_MD get_VB [NP answers_NNS ] by_IN [NP people_NNS ] browsing_VBG [NP reddit_NN ] while_IN [NP they_PRP ] should_MD be_VB working_VBG here_RB ,_, so_RB do_VBP [NP net_JJ expect_NN ] [NP much_RB positive_JJ response_NN ] ._."
+    ],
+    "cfxv252": [
+        "<START>_<START> [NP power_NN engineer_NNP ] in_IN [NP northern_JJ alberta_NNP ] [NP $_$ 200k_CD ] per_IN [NP year_NN ] +_: up_IN to_TO [NP $_$ 30k_CD extra_JJ ] in_IN [NP bonuses_NNS ] [NP 7_CD /_CD 10_CD satisfaction_NNP money_NNP ] is_VBZ definitely_RB good_JJ but_CC [NP the_DT job_NN ] involves_VBZ [NP shift_NN work_NN ] far_RB from_IN [NP home_NN and_CC puts_NNS ] [NP a_DT strain_NN ] on_IN [NP my_PRP$ personal_JJ life_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] usually_RB work_VB [NP 12_CD hours_NNS shifts_NNS ] of_IN [NP 7_CD ] on_IN [NP /_CD 7_CD ] off_IN [NP rotating_NN ] between_IN [NP nights_NNS and_CC days_NNS ] ._.",
+        "<START>_<START> with_IN [NP a_DT few_JJ more_RBR years_NNS ] of_IN [NP experience_NN ] and_CC [NP some_DT luck_NN ] [NP i_PRP ] can_MD get_VB [NP a_DT position_NN ] in_IN [NP the_DT city_NN ] for_IN [NP about_IN 2_CD /_CD 3_CD ] [NP the_DT pay_NN ] but_CC [NP i_PRP ] would_MD be_VB sleeping_VBG in_IN [NP my_PRP$ own_JJ bed_VBN ] [NP every_DT night_NN ] ._."
+    ],
+    "cckgnf8": [
+        "<START>_<START> for_IN [NP the_DT love_NN ] of_IN [NP god_NNP ] ,_, [NP order_NN ] [NP the_DT guinness_NNP ] first_RB ._."
+    ],
+    "cfxwcik": [
+        "<START>_<START> [NP i_PRP ] work_VBP in_IN [NP the_DT restaurant_NN industry_NN ] ,_, [NP i_PRP ] work_VBP [NP about_IN 35_CD hours_NNS ] [NP a_DT week_NN ] and_CC take_VB [NP home_NN ] about_IN [NP $_$ 65k_CD ] ._.",
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP 35_CD years_NNS ] old_JJ and_CC have_VBP been_VBN in_IN [NP the_DT industry_NN ] for_IN [NP about_IN 10_CD years_NNS ] ._."
+    ],
+    "c2p7oya": [
+        "<START>_<START> [NP i_PRP ] quite_VBP [NP enjoy_JJ ] being_VBG [NP a_DT potwash_NN ] in_IN [NP a_DT kitchen_NN ] but_CC [NP i_PRP ] learned_VBD how_WRB to_TO enjoy_VB [NP life_NN ] generally_RB so_RB [NP i_PRP ] dunno_VBP if_IN that_IN [NP counts_NNS ]"
+    ],
+    "c2p5ghz": [
+        "<START>_<START> [NP first_NNP job_NN ] after_IN [NP college_NN ] :_: [NP tv_NN commercial_JJ producer_NN ] [NP i_PRP ] love_VBP [NP it_PRP ] because_IN :_: [NP i_PRP ] have_VBP [NP the_DT opportunity_NN ] to_TO see_VB /_: [NP hear_JJ my_PRP$ work_NN ] broadcasted_VBN [NP nationwide_NN ] within_IN [NP months_NNS ] [NP /_: weeks_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] have_VBP [NP the_DT opportunity_NN ] to_TO use_VB [NP many_JJ odd_JJ talents_NNS ] and_CC increase_VB [NP my_PRP$ skills_NNS ] in_IN [NP other_JJ areas_NNS ] ,_, video_RB [NP editing_VBG ,_, cinematography_JJ ] ,_, [NP motion_NN graphics_NNS ] ,_, [NP etc_NN ] ._.",
+        "<START>_<START> and_CC sometimes_RB save_VB [NP the_DT company_NN money_NN ] doing_VBG so_RB ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP to_TO see_VB /_: [NP use_NN electronics_NNS months_NNS ] before_IN [NP they_PRP ] are_VBP released_VBN ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP to_TO be_VB [NP creative_JJ (_NN ] sometimes_RB )_. ._.",
+        "<START>_<START> [NP the_DT pay_NN and_CC benefits_NNS ] are_VBP great_JJ ,_, [NP third-parties_NNS ] seek_VBP to_TO [NP impress_NN ] /_: entertain_NN [NP us_PRP ] [NP which_WDT ] means_VBZ [NP free_JJ lunch_NN ] /_: [NP dinner_NN ] /_: [NP drinks_NNS ] ._.",
+        "<START>_<START> [NP laidback_NNP work_NN environment_NN ] with_IN [NP the_DT trust_NN ] that_IN [NP work_NN ] will_MD be_VB done_VBN properly_RB and_CC on-time_JJ ._.",
+        "<START>_<START> [NP can_NNP ] arrive_VBP [NP more-or-less_JJ ] when_WRB [NP you_PRP ] want_VBP ,_, leave_VBP [NP more-or-less_JJ ] when_WRB [NP you_PRP ] want_VBP ,_, take_VB [NP lunch_NN ] when_WRB /_: [NP as_IN ] long_RB as_IN [NP you_PRP ] want_VBP ._.",
+        "<START>_<START> [NP the_DT downside_NN ] of_IN [NP this_DT ] is_VBZ when_WRB [NP there_EX ] is_VBZ [NP a_DT deadline_NN ] ,_, [NP there_EX ] is_VBZ [NP no_DT leway_NN ] (_: [NP sp_NN ] ?_.",
+        "<START>_<START> [NP )_NN and_CC ] sometimes_RB [NP i_PRP ] can_MD work_VB [NP 60+_CD hours_NNS ] [NP a_DT week_NN ] ._.",
+        "<START>_<START> but_CC [NP that_DT ] 's_VBZ occasional_JJ ._.",
+        "<START>_<START> [NP dogs_NNS ] allowed_VBD in_IN [NP the_DT office_NN ] ._.",
+        "<START>_<START> [NP co-workers_NNS ] are_VBP friendly_RB /_: supportive_JJ ,_, [NP superiors_NNS ] extremely_RB [NP nice_JJ and_CC helpful_JJ ] ._.",
+        "<START>_<START> [NP a_DT surprising_JJ understanding_NN ] [NP that_WDT ] [NP i_PRP ] am_VBP new_JJ to_TO [NP the_DT workforce_NN ] and_CC [NP i_PRP ] get_VBP [NP extra_JJ help_NN ] as_IN [NP necessary_JJ ] and_CC do_VB n't_RB feel_VB looked_VBN down_RP [NP upon_IN ] ._."
+    ],
+    "cg041qj": [
+        "<START>_<START> [NP *_-NONE- web_NNP development_NN lead_NN ] for_IN [NP a_DT global_JJ media_NNS company_NN ] ._.",
+        "<START>_<START> [NP *_-NONE- $_$ 157.5k_CD /_CD yr_NN ] ._.",
+        "<START>_<START> [NP *_-NONE- 34_CD years_NNS ] old_JJ ._.",
+        "<START>_<START> [NP *_-NONE- 6_CD /_CD 10_CD ] -_: [NP pay_NN ] is_VBZ good_JJ and_CC [NP hours_NNS ] are_VBP fairly_RB flexible_JJ but_CC [NP the_DT work_NN ] could_MD be_VB more_RBR challenging_VBG ._."
+    ],
+    "cckh9xi": [
+        "<START>_<START> [NP dna_NNP paternity_NNP tester_NN ] ._.",
+        "<START>_<START> [NP there_EX ] are_VBP [NP two_CD options_NNS ] to_TO make_VB [NP this_DT easier_JJR ] ._.",
+        "<START>_<START> 1_LS ._.",
+        "<START>_<START> [NP do_NNP ] n't_RB have_VB unprotected_VBN [NP sex_NN ] with_IN [NP random_NN people_NNS ] ,_, or_CC [NP carnies_NNS ] ._.",
+        "<START>_<START> 2_LS ._.",
+        "<START>_<START> if_IN [NP you_PRP ] have_VBP had_VBN unprotected_VBN [NP sex_NN ] and_CC now_RB have_VBP [NP a_DT child_NN ] ,_, [NP please_NN remember_NN ] to_TO bring_VB [NP the_DT child_NN ] with_IN [NP you_PRP ] when_WRB [NP you_PRP ] come_VBP in_IN for_IN [NP testing_NN ] ._."
+    ],
+    "c2p5ghy": [
+        "<START>_<START> [NP psychotherapist_NNP ] here_RB ,_, focusing_VBG on_IN working_VBG with_IN [NP victims_NNS ] of_IN [NP trauma_NN ] /_: [NP abuse_NN ] /_: [NP neglect_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] never_RB would_MD have_VB predicted_VBN that_IN [NP this_DT ] would_MD have_VB been_VBN [NP my_PRP$ life_NN ] ,_, yet_CC [NP i_PRP ] love_VBP [NP it_PRP ] ._.",
+        "<START>_<START> [NP it_PRP ] is_VBZ deeply_RB moving_VBG to_TO [NP witness_NN folks_NNS ] in_IN [NP their_PRP$ struggles_NNS ] ,_, to_TO offer_VB [NP them_PRP ] [NP tools_NNS ] ,_, and_CC to_TO see_VB where_WRB [NP it_PRP ] takes_VBZ [NP them_PRP ] ._.",
+        "<START>_<START> [NP there_EX ] is_VBZ [NP no_DT better_JJR job_NN ] in_IN [NP the_DT world_NN ] in_IN [NP my_PRP$ opinion_NN ] ._.",
+        "<START>_<START> oh_UH ,_, and_CC [NP i_PRP ] make_VBP shit_JJ for_IN [NP pay_NN ] ,_, but_CC [NP i_PRP ] get_VBP to_TO work_VB for_IN [NP myself_PRP ] ._."
+    ],
+    "c2p7vo9": [
+        "<START>_<START> [NP freelance_NN ] ._.",
+        "<START>_<START> [NP work_NNP 10-15hrs_CD ] [NP a_DT day_NN ] and_CC love_VB [NP everything_NN ] about_IN [NP it_PRP ] ._."
+    ],
+    "cfxocgn": [
+        "<START>_<START> [NP analyst_NN ] for_IN [NP a_DT retail_JJ company_NN ] 50k_CD -_: [NP 25yo_CD ] [NP the_DT job_NN ] completely_RB blows_VBZ [NP chunks_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] ca_MD n't_RB stand_VB [NP the_DT corporate_JJ world_NN ] ._.",
+        "<START>_<START> [NP got_NNP my_PRP$ degree_NN ] in_IN [NP education_NN ] but_CC could_MD n't_RB pay_VB [NP the_DT bills_NNS ] (_: have_VBP [NP a_DT family_NN ] )_: so_RB switched_VBN ._.",
+        "<START>_<START> [NP all_DT that_DT glitters_NNS ] is_VBZ not_RB gold_VBN ,_, [NP friends_NNS ] ._."
+    ],
+    "cfxscxu": [
+        "<START>_<START> [NP lawyer_NN ] ._.",
+        "<START>_<START> [NP some_DT weeks_NNS ] [NP i_PRP ] get_VBP [NP peanuts_NNS ] ._.",
+        "<START>_<START> [NP other_JJ weeks_NNS ] [NP i_PRP ] get_VBP [NP lasagna_NNS ] ._.",
+        "<START>_<START> still_RB [NP other_JJ weeks_NNS ] [NP i_PRP ] get_VBP [NP tuna_NNS or_CC mac_NN ] and_CC [NP cheese_JJ ] ._.",
+        "<START>_<START> once_RB [NP i_PRP ] got_VBD [NP an_DT entire_JJ lobster_NN ] dipped_VBD in_IN [NP mayonaise_NN ] ._.",
+        "<START>_<START> [NP the_DT job_NN ] [NP itself_PRP ] is_VBZ around_IN [NP a_DT 3_CD /_CD 10_CD ] ._."
+    ],
+    "c1j56qj": [
+        "<START>_<START> [NP i_PRP ] ..._: sell_VBP roofing_VBG [NP supplies_NNS ] ..._:"
+    ],
+    "c1j56qh": [
+        "<START>_<START> [NP i_PRP ] design_VBP [NP prints_NNS ] for_IN [NP fabric_JJ ] ._."
+    ],
+    "c1j5le5": [
+        "<START>_<START> [NP software_NN engineer_NNP ] ,_, [NP i_PRP ] write_VBP [NP computer_NN programs_NNS ] ._."
+    ],
+    "cfxycib": [
+        "<START>_<START> [NP health_NNP and_CC wellness_NN intern_NN ] at_IN [NP a_DT ymca_NNP ] ._.",
+        "<START>_<START> [NP 21_CD years_NNS ] old_JJ [NP $_$ 0_-NONE- (_CD ] unpaid_VBD [NP intern_JJ )_NN 2_CD /_CD 10_CD ] ._.",
+        "<START>_<START> [NP i_PRP ] like_VBP that_IN [NP i_PRP ] get_VBP [NP a_DT free_JJ membership_NN ] and_CC [NP i_PRP ] get_VBP to_TO run_VB [NP programs_NNS ] without_IN [NP much_JJ supervision_NN ] ,_, but_CC [NP this_DT ] is_VBZ not_RB [NP what_WP ] [NP i_PRP ] want_VBP to_TO do_VB with_IN [NP my_PRP$ life_NN ] ._.",
+        "<START>_<START> [NP plus_NNP ] ,_, [NP my_PRP$ supervisor_NN ] is_VBZ [NP a_DT real_JJ grumpy_NN gills_NNS ] ._."
+    ],
+    "c1j52mo": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT program_NN /_NN project_NNP manager_NNP ] for_IN [NP a_DT forbes_NNPS 50_CD company_NN ] ._."
+    ],
+    "c1j51ac": [
+        "<START>_<START> [NP surf_NNP reddit_NN ] ._.",
+        "<START>_<START> oh_UH ,_, [NP i_PRP ] 'm_VBP also_RB [NP a_DT graphic_JJ designer_NN ] [NP who_WP ] does_VBZ photography_JJ ,_, [NP video_NN production_NN ] ,_, [NP web_NN development_NN ] ,_, and_CC [NP other_JJ fun_NN stuff_NN ] ..._:",
+        "<START>_<START> [NP i_PRP ] consider_VBP [NP myself_PRP ] lucky_JJ ._."
+    ],
+    "cfy5ouo": [
+        "<START>_<START> [NP tablet_NNP press_NNP operator_NNP (_NNP ] make_VBP [NP drugs_NNS ] for_IN [NP a_DT major_JJ generic_JJ pharmaceutical_JJ company_NN ] )_: ._.",
+        "<START>_<START> [NP 60-100k_CD ] depending_VBG on_IN [NP overtime_NN 29_CD 8_CD /_CD 10_CD ] [NP i_PRP ] really_RB enjoy_VBP [NP my_PRP$ job_NN ] ,_, [NP very_RB unique_JJ which_WDT ] makes_VBZ [NP it_PRP ] fun_VBP ._.",
+        "<START>_<START> [NP i_PRP ] hope_VBP to_TO retire_VB with_IN [NP my_PRP$ company_NN ] ._."
+    ],
+    "cckifri": [
+        "<START>_<START> [NP gas_NNP station_NN attendant_NN ] here_RB :_: if_IN [NP you_PRP ] 're_VBP not_RB pre-paying_JJ at_IN [NP the_DT pump_NN ] (_: [NP which_WDT ] is_VBZ preferred_VBN [NP )_-NONE- ,_, cash_NN or_CC card_NN ] wo_MD n't_RB make_VB [NP a_DT difference_NN ] ._.",
+        "<START>_<START> [NP please_NN ] ,_, do_VBP n't_RB dig_VB for_IN [NP exact_JJ change_NN ] at_IN [NP the_DT counter_NN ] ._.",
+        "<START>_<START> if_IN [NP you_PRP ] have_VBP [NP it_PRP ] ,_, [NP fine_NN ] ,_, but_CC have_VBP [NP it_PRP ] ready_RB for_IN when_WRB [NP you_PRP ] get_VBP to_TO [NP the_DT counter_NN ] so_RB [NP i_PRP ] can_MD continue_VB to_TO move_VB through_IN [NP the_DT line_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] do_VBP n't_RB mind_VB [NP small_JJ talk_NN ] or_CC [NP you_PRP ] staying_VBG to_TO chit_VB [NP chat_DT ] ,_, but_CC again_RB please_VB be_VB mindful_JJ of_IN [NP those_DT ] [NP who_WP ] [NP ate_NN ] waiting_VBG to_TO pay_VB ._."
+    ],
+    "cckilxi": [
+        "<START>_<START> when_WRB [NP you_PRP ] call_VBP [NP customer_NN service_NN ] have_VBP [NP the_DT information_NN ] needed_VBD for_IN [NP them_PRP ] to_TO help_VB [NP you_PRP ] ._.",
+        "<START>_<START> for_IN [NP example_NN ] ,_, if_IN [NP you_PRP ] want_VBP to_TO pay_VB [NP a_DT bill_NN ] ,_, have_VBP [NP the_DT bill_NN ] and_CC [NP your_PRP$ credit_NN card_NN ] or_CC checking_VBG [NP information_NN ] ._.",
+        "<START>_<START> and_CC please_VB ,_, do_VB n't_RB yell_VB and_CC swear_VB and_CC call_NN [NP the_DT person_NN ] names_VBZ ,_, even_RB if_IN [NP you_PRP ] are_VBP really_RB mad_JJ ._.",
+        "<START>_<START> screaming_VBG at_IN [NP them_PRP ] to_TO hurry_VB up_RP does_VBZ n't_RB work_VB ;_: [NP sometimes_RB ] there_RB 's_VBZ [NP no_DT way_NN ] to_TO get_VB [NP things_NNS ] to_TO go_VB faster_JJR no_DT matter_NN how_WRB much_RB [NP you_PRP ] yell_VBP ._."
+    ],
+    "c2p4l5f": [
+        "<START>_<START> [NP i_PRP ] work_VBP at_IN t-mobile_JJ ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP good_JJ money-_NN ] [NP mostly_RB commission-_JJ remember_NN ] [NP that_WDT next_JJ time_NN ] [NP you_PRP ] tell_VBP [NP a_DT nice_JJ guy_NN ] [NP who_WP ] spent_NN [NP an_DT hour_NN ] with_IN [NP you_PRP ] telling_VBG [NP you_PRP ] about_IN [NP phones_NNS ] [NP that_WDT ] [NP you_PRP ] want_VBP to_TO shop_VB around_IN [NP more_JJR ] ._.",
+        "<START>_<START> but_CC [NP there_EX ] 's_VBZ [NP a_DT mall_JJ ] with_IN [NP 2_CD t-mobile_JJ kiosks_NNS ] almost_RB [NP right_JJ next_JJ door_NN ] ,_, and_CC [NP my_PRP$ job_NN ] is_VBZ to_TO fix_VB [NP their_PRP$ dumbass_NN mistakes_NNS ] ._.",
+        "<START>_<START> and_CC [NP yes_NNS ] ,_, [NP t-mobile_JJ ] is_VBZ [NP the_DT cheapest_JJS ] ._."
+    ],
+    "cckifrc": [
+        "<START>_<START> teaching_VBG [NP assistant_NNP ] here_RB :_: read_NNP [NP the_DT god_NN damn_NN assignment_NN handouts_NNS ] before_IN [NP you_PRP ] come_VBP to_TO [NP my_PRP$ office_NN hours_NNS ] or_CC email_NN [NP me_PRP ] asking_VBG about_IN [NP the_DT requirements_NNS ] ._."
+    ],
+    "cckjci0": [
+        "<START>_<START> [NP bone_NN marrow_NNP registry_NNP ] :_: [NP only_RB sign_JJ up_IN ] if_IN [NP you_PRP ] 're_VBP serious_JJ ._.",
+        "<START>_<START> about_IN [NP 50_CD %_NN ] of_IN [NP the_DT people_NNS ] [NP who_WP ] sign_NN up_IN [NP end_NN ] up_IN not_RB going_VBG through_IN with_IN [NP it_PRP ] after_IN [NP they_PRP ] 've_VBP signed_VBN up_RP ._.",
+        "<START>_<START> [NP some_DT ] are_VBP for_IN [NP legit_NN reasons_NNS ] ,_, but_CC [NP many_JJ ] can_MD be_VB mitigated_VBN by_IN [NP making_NN sure_NN ] [NP you_PRP ] understand_VBP [NP what_WP ] [NP you_PRP ] 're_VBP signing_VBG up_RP [NP for_IN ] ._.",
+        "<START>_<START> [NP only_RB about_IN 1_CD ] in_IN [NP 540_CD ] are_VBP [NP a_DT match_NN ] ,_, couple_NN that_IN with_IN [NP around_IN 50_CD %_NN retention_NN and_CC patient_NN timeframes_NNS ] ,_, [NP it_PRP ] can_MD really_RB suck_VB when_WRB [NP someone_NN ] backs_NNS out_IN ._.",
+        "<START>_<START> [NP part_NN ] of_IN [NP this_DT ] is_VBZ on_IN [NP the_DT recruiter_NN ] [NP who_WP ] explained_VBN [NP things_NNS ] to_TO [NP you_PRP ] ,_, but_CC [NP part_NN ] is_VBZ also_RB making_VBG [NP sure_NN ] [NP you_PRP ] ask_VBP [NP questions_NNS ] about_IN [NP what_WP ] [NP you_PRP ] 're_VBP getting_VBG into_IN ._.",
+        "<START>_<START> if_IN [NP you_PRP ] want_VBP [NP more_JJR info_NN ] ,_, [NP feel_NN ] free_JJ to_TO [NP pm_NNP ] [NP me_PRP ] ._."
+    ],
+    "c2p8jlr": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT cocktail_NN waitress_NN ] and_CC [NP a_DT barback_NN ] at_IN [NP a_DT comedy_NN theatre_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] fucking_VBP love_JJ [NP it_PRP ] ._.",
+        "<START>_<START> [NP everyone_NN ] [NP i_PRP ] work_VBP [NP with_IN ] is_VBZ [NP the_DT shit_NN ] and_CC [NP i_PRP ] do_VBP not_RB consider_VB [NP it_PRP ] work_VB ._.",
+        "<START>_<START> as_IN [NP a_DT server_NN ] ,_, [NP i_PRP ] 've_VBP always_RB hated_VBN swallowing_VBG [NP patrons_NNS ] [NP '_POS shit_NN ] but_CC when_WRB [NP im_JJ slanging_NN drinks_NNS ] ,_, [NP i_PRP ] can_MD tell_VB [NP people_NNS ] to_TO fuck_VB off_RP ._.",
+        "<START>_<START> also_RB ,_, [NP i_PRP ] 'm_VBP [NP a_DT guy_NN ] (_: do_VBP n't_RB let_VB [NP the_DT 'waitress_JJ ] [NP '_POS part_NN fool_NN ] [NP you_PRP ] ;_: im_VBP breaking_VBG [NP gender_NN barriers_NNS ] as_IN [NP i_PRP ] believe_VBP [NP cocktail_JJ serving_NN ] is_VBZ [NP a_DT job_NN ] traditionally_RB reserved_VBD for_IN [NP females_NNS ] )_: behind_NNP [NP the_DT bar_NN ] ,_, [NP im_NN invincible_JJ ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP being_VBG busy_NN and_CC not_RB being_VBG [NP a_DT traditional_JJ barback_NN ] ,_, [NP i_PRP ] pour_VBP [NP drinks_NNS and_CC flirt_NN ] with_IN [NP women_NNS ] ._.",
+        "<START>_<START> being_VBG naturally_RB [NP hospitable_JJ and_CC affable_JJ ] ,_, [NP i_PRP ] actually_RB like_IN serving_VBG [NP people_NNS ] ._.",
+        "<START>_<START> [NP plus_NNP ] [NP my_PRP$ improv_NN classes_NNS ] are_VBP [NP half_DT off_NN ] ._.",
+        "<START>_<START> [NP what_WP more_JJR ya_NN want_NN ] ?_."
+    ],
+    "cckntu3": [
+        "<START>_<START> [NP auto_NNP tech_NN ] here_RB ._.",
+        "<START>_<START> [NP write_NNP your_PRP$ complaint_NN ] with_IN [NP your_PRP$ car_NN ] down_IN on_IN [NP paper_NN ] ._.",
+        "<START>_<START> [NP there_EX ] is_VBZ [NP a_DT good_JJ chance_NN ] that_IN [NP i_PRP ] will_MD see_VB [NP it_PRP ] ._.",
+        "<START>_<START> if_IN [NP you_PRP ] just_RB tell_VBP [NP someone_NN ] in_IN [NP the_DT office_NN ] [NP what_WP ] is_VBZ wrong_JJ with_IN [NP your_PRP$ car_NN ] ,_, [NP i_PRP ] 'll_MD just_RB get_VB told_VBN [NP something_NN ] like_IN ``_`` [NP it_PRP ] runs_VBZ like_IN [NP shit_NN ] ''_'' or_CC ``_`` [NP it_PRP ] has_VBZ [NP a_DT noise_NN ] ''_'' ._.",
+        "<START>_<START> [NP you_PRP ] can_MD see_VB how_WRB that_IN [NP leads_NNS ] to_TO [NP a_DT lot_NN ] of_IN ``_`` [NP no_DT problem_NN ] found_VBD ''_'' ._."
+    ],
+    "cfxuxil": [
+        "<START>_<START> [NP -lrb-_-LRB- ] deleted_VBN -llb-_-NONE-"
+    ],
+    "cckl2bl": [
+        "<START>_<START> [NP grocery_NNP ] store_VBD [NP clerk_NN ] ._.",
+        "<START>_<START> [NP please_NN ] do_VBP n't_RB complain_VB to_TO [NP me_PRP ] that_IN [NP things_NNS ] are_VBP too_RB expensive_JJ here_RB ._.",
+        "<START>_<START> [NP there_EX ] is_VBZ n't_RB [NP anything_NN ] [NP we_PRP ] can_MD do_VB [NP about_RB it_PRP ] ,_, [NP my_PRP$ boss_NN ] can_MD do_VB [NP about_RB it_PRP ] ,_, or_CC [NP his_PRP$ bosses_NNS ] can_MD do_VB [NP about_RB it_PRP ] ._.",
+        "<START>_<START> and_CC if_IN [NP you_PRP ] 're_VBP going_VBG to_TO decide_VB to_TO shop_VB somewhere_RB else_RB ,_, do_VBP n't_RB tell_VB [NP me_PRP ] just_RB to_TO be_VB offensive_JJ ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP paid_VBN by_IN [NP the_DT hour_NN ] ,_, [NP i_PRP ] could_MD care_VB less_RBR ._."
+    ],
+    "cfy2xzj": [
+        "<START>_<START> [NP pollution_NN control_NN ] ._.",
+        "<START>_<START> [NP 32_CD last_JJ year_NN ] :_: [NP $_$ 42k_CD 6_CD /_CD ] 10_CD"
+    ],
+    "c63pvsd": [
+        "<START>_<START> [NP i_PRP ] 've_VBP had_VBN [NP a_DT number_NN ] of_IN [NP jobs_NNS ] ,_, [NP most_JJS ] of_IN [NP which_WDT ] [NP i_PRP ] was_VBD n't_RB fond_JJ of_IN ._.",
+        "<START>_<START> [NP the_DT first_JJ ] out_IN of_IN [NP college_NN ] and_CC [NP the_DT current_JJ ] are_VBP [NP the_DT best_JJS ] ,_, though_RB ._.",
+        "<START>_<START> [NP i_PRP ] was_VBD [NP a_DT protectionist_NN ] right_RB out_IN of_IN [NP college_NN ] ._.",
+        "<START>_<START> [NP pay_NNP ] was_VBD abysmal_JJ ,_, but_CC [NP it_PRP ] was_VBD all_PDT [NP i_PRP ] could_MD find_VB and_CC [NP i_PRP ] really_RB enjoyed_VBD [NP it_PRP ] ._.",
+        "<START>_<START> [NP my_PRP$ current_JJ job_NN ] is_VBZ working_VBG for_IN [NP amazon_NNP receiving_VBG shipments_NNS ] ._.",
+        "<START>_<START> [NP no_DT stress_NN ] ,_, [NP no_DT customers_NNS ] ,_, just_RB [NP me_PRP ] vs_VBZ [NP boxes_NNS ] [NP all_DT day_NN ] ._."
+    ],
+    "c2p60ir": [
+        "<START>_<START> [NP i_PRP ] operate_VBP [NP a_DT nuclear_JJ power_NN plant_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] harness_VBP [NP more_JJR energy_NN ] than_IN [NP many_JJ ] of_IN [NP you_PRP ] can_MD imagine_VB ._."
+    ],
+    "c63qjuq": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT projectionist_NN ] ,_, and_CC [NP i_PRP ] work_VBP with_IN [NP all_DT these_DT old_JJ projectors_NNS ] ._.",
+        "<START>_<START> [NP think_NNP 35mm_CD tape_NN ] ,_, [NP no_DT digital_NN ] ,_, because_IN [NP the_DT projectors_NNS ] were_VBD got_VBN when_WRB [NP the_DT cinema_NN ] opened_VBD in_IN [NP the_DT early_JJ 90_CD ] [NP 's_POS ] and_CC [NP they_PRP ] were_VBD *second_JJ hand*_-NONE- at_IN [NP that_DT ] ._.",
+        "<START>_<START> [NP there_EX ] are_VBP [NP 500_CD little_JJ things_NNS ] to_TO remember_VB and_CC [NP they_PRP ] are_VBP [NP a_DT challenge_NN ] but_CC [NP i_PRP ] love_VBP [NP the_DT way_NN ] that_IN [NP the_DT cogs_NNS ] move_VBP ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP [NP the_DT projectors_NNS ] ,_, [NP i_PRP ] love_VBP [NP my_PRP$ job_NN ] ._."
+    ],
+    "c63r38a": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT psychotherapist_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] have_VBP been_VBN licensed_VBN at_IN [NP the_DT masters_NNP level_NN ] for_IN [NP 3_CD years_NNS ] and_CC will_MD complete_VB [NP my_PRP$ doctor_NNP ] of_IN [NP psychology_NNP degree_NN ] in_IN [NP 2_CD more_JJR years_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] started_VBD working_VBG in_IN [NP the_DT field_NN ] when_WRB [NP i_PRP ] got_VBD [NP my_PRP$ bachelors_NNS ] making_VBG [NP 26k_CD ] [NP a_DT year_NN ] ,_, but_CC with_IN [NP experience_NN ] ,_, [NP certifications_NNS ] ,_, and_CC [NP education_NN ] [NP i_PRP ] was_VBD making_VBG just_RB under_IN [NP 60k_CD ] at_IN [NP the_DT age_NN ] of_IN [NP 27_CD ] ._.",
+        "<START>_<START> since_IN [NP i_PRP ] 've_VBP been_VBN licensed_VBN and_CC started_VBN [NP a_DT private_JJ practice_NN ] [NP that_WDT ] is_VBZ very_RB busy_JJ ,_, [NP i_PRP ] am_VBP pulling_VBG in_IN [NP about_IN 55k_CD ] per_IN [NP year_NN ] working_VBG [NP 2.5_CD days_NNS ] per_IN [NP week_NN bc_NN ] [NP i_PRP ] 'm_VBP going_VBG to_TO [NP school_NN full-time_JJ ] as_IN well_RB ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP [NP my_PRP$ job_NN ] ,_, [NP i_PRP ] truly_RB enjoy_VBP working_VBG with_IN [NP my_PRP$ clients_NNS ] ,_, and_CC [NP i_PRP ] very_RB rarely_RB feel_VBP [NP any_DT type_NN ] of_IN [NP angst_NN ] having_VBG to_TO come_VB into_IN [NP work_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] took_VBD [NP a_DT lot_NN ] of_IN [NP hard_NN work_NN ] to_TO get_VB to_TO where_WRB [NP i_PRP ] am_VBP now_RB ,_, but_CC [NP it_PRP ] 's_VBZ [NP all_DT been_VBN worth_JJ ] [NP it_PRP ] ._.",
+        "<START>_<START> [NP my_PRP$ recommendation_NN ] to_TO [NP anyone_NN ] [NP no_DT matter_NN ] what_WP [NP your_PRP$ field_NN ] of_IN [NP interest_NN ] :_: [NP find_JJ a_DT way_NN ] to_TO be_VB [NP your_NNP own_NNP boss_NNP ] !_. !_.",
+        "<START>_<START> [NP !_NN ]"
+    ],
+    "c2p2uoo": [
+        "<START>_<START> [NP i_PRP ] love_VBP [NP my_PRP$ job_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] work_VBP in_IN [NP a_DT techie_NN ] /_: [NP helpdesk_NN function_NN ] for_IN [NP a_DT medium-sized_JJ company_NN ] ,_, soon_RB moving_VBG into_IN [NP a_DT more_RBR 2nd-line_JJ support_NN role_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP making_VBG [NP processes_NNS ] more_JJR efficient_JJ ,_, coming_VBG up_RP [NP with_IN long-term_JJ ,_, permanent_JJ solutions_NNS ] ,_, and_CC being_VBG able_JJ to_TO [NP influence_NN ] [NP our_PRP$ product_NN ] ._."
+    ],
+    "cckkfbs": [
+        "<START>_<START> [NP dry_NNP cleaner-_NNP please_NNP ] ,_, please_VB [NP unbutton_NN ] [NP your_PRP$ shirt_NN buttons_NNS ] ,_, so_RB [NP we_PRP ] do_VBP n't_RB have_VB to_TO !_.",
+        "<START>_<START> if_IN [NP your_PRP$ wedding_NN ] is_VBZ [NP saturday_NNP ] ,_, do_VBP n't_RB bring_VB [NP your_PRP$ suit_NN ] in_IN [NP friday_NNP afternoon_NN ] expecting_VBG [NP us_PRP ] to_TO clean_VB [NP it_PRP ] ,_, [NP the_DT more_RBR time_NN ] [NP we_PRP ] have_VBP on_IN [NP a_DT piece_NN ] [NP the_DT better_JJR ] ._.",
+        "<START>_<START> also_RB ,_, [NP i_PRP ] know_VBP [NP it_PRP ] 's_VBZ embarrassing_VBG to_TO have_VB to_TO tell_VB [NP a_DT complete_JJ stranger_NN ] [NP you_PRP ] shit_VBD [NP your_PRP$ pants_NNS ] or_CC something_VBG like_IN [NP that_DT ] ,_, but_CC for_IN [NP the_DT love_NN ] of_IN [NP god_NN ] ,_, tell_NN [NP us_PRP ] about_IN [NP stains_NNS ] (_: especially_RB bodily_RB fluids_VBZ )_: so_RB [NP we_PRP ] do_VBP n't_RB reach_VB [NP our_PRP$ hands_NNS ] into_IN [NP that_DT ] !_."
+    ],
+    "c63pohd": [
+        "<START>_<START> [NP i_PRP ] sell_VBP [NP bicycles_NNS ] at_IN [NP a_DT bike_NN shop_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP [NP riding.bicycles_NNS ] ._.",
+        "<START>_<START> [NP i_PRP ] am_VBP paid_VBN to_TO get_VB [NP other_JJ people_NNS ] into_IN [NP biking_VBG ] ._.",
+        "<START>_<START> pretty_RB cool_JJ ._."
+    ],
+    "c1j4i0f": [
+        "<START>_<START> [NP i_PRP ] create_VBP [NP financial_JJ reports_NNS ] [NP all_DT day_NN ] long_RB ,_, basically_RB analyzing_VBG [NP large_JJ data_NNS sets_NNS ] in_IN [NP excel_NNP ] ._.",
+        "<START>_<START> while_IN browsing_VBG [NP reddit_NN ] /_: watching_VBG [NP sc2_NNP streams_NNS ] ._."
+    ],
+    "c1j4ye0": [
+        "<START>_<START> [NP i_PRP ] look_VBP at_IN [NP pythons_NNS ] on_IN [NP the_DT computer_NN ] [NP all_DT day_NN ] ._.",
+        "<START>_<START> [NP people_NNS ] [NP who_WP ] make_VBP [NP stuff_NN pay_NN ] [NP us_PRP ] to_TO find_VB [NP people_NNS ] for_IN [NP them_PRP ] to_TO make_VB [NP things_NNS for_IN ] ._.",
+        "<START>_<START> [NP somehow_NN ] looking_VBG at_IN [NP pythons_NNS ] accomplish_VBP [NP this_DT ] ._."
+    ],
+    "c1j4i0p": [
+        "<START>_<START> [NP -lrb-_-LRB- ] deleted_VBN -llb-_-NONE-"
+    ],
+    "c63krew": [
+        "<START>_<START> [NP i_PRP ] love_VBP [NP my_PRP$ job_NN ] ,_, [NP hate_JJ the_DT admin_NN bullshit_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] drive_VBP [NP around_RP and_CC fix_NN machines_NNS ] ,_, [NP i_PRP ] get_VBP to_TO be_VB [NP new_JJ places_NNS everyday_NN ] ._.",
+        "<START>_<START> [NP mental_JJ challenges_NNS ] troubleshooting_VBG ,_, sometimes_RB working_VBG on_IN [NP equipment_NN ] [NP i_PRP ] have_VBP never_RB even_RB seen_VBN before_IN ._."
+    ],
+    "cfxx2v9": [
+        "<START>_<START> [NP auto_NNP sales_NNS ] ._.",
+        "<START>_<START> [NP roughly_RB $_$ 80-110k_CD ] annually_RB depending_VBG on_IN [NP bonuses_NNS ] ._.",
+        "<START>_<START> [NP 39_CD years_NNS ] old_JJ ._.",
+        "<START>_<START> [NP 9_CD ] /_`` [NP 10_CD live_JJ my_PRP$ job_NN but_CC long_RB hours_NNS ] and_CC sometimes_RB too_RB much_RB drama_VBP ._."
+    ],
+    "c2p89gc": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT waiter_NN ] for_IN [NP a_DT small_JJ fish_JJ place_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP [NP what_WP ] [NP i_PRP ] do_VBP ._.",
+        "<START>_<START> [NP i_PRP ] make_VBP [NP shit_JJ money_NN ] ,_, but_CC [NP i_PRP ] 'm_VBP very_RB happy_JJ :_: )_:"
+    ],
+    "c1j4i0z": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT phd_NNP student_NN ] ._.",
+        "<START>_<START> [NP positive_JJ interpretation_NN ] :_: [NP i_PRP ] 'm_VBP being_VBG paid_VBN to_TO think_VB ._."
+    ],
+    "c2p7pyl": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT computer_NN ] /_: [NP electrical_JJ engineer_NN ] and_CC [NP i_PRP ] love_VBP [NP my_PRP$ job_NN ] ._.",
+        "<START>_<START> besides_IN [NP the_DT great_JJ people_NNS ] [NP i_PRP ] work_VBP with_IN [NP (_CD ] [NP i_PRP ] work_VBP at_IN [NP a_DT small_JJ company_NN ] so_IN [NP i_PRP ] have_VBP [NP a_DT personal_JJ relationship_NN ] with_IN [NP everyone_NN ] in_IN [NP the_DT company_NN ] )_: ,_, [NP i_PRP ] love_VBP being_VBG [NP hands_NNS ] on_IN with_IN [NP electronics_NNS ] ._.",
+        "<START>_<START> when_WRB [NP i_PRP ] was_VBD [NP a_DT child_NN ] [NP i_PRP ] played_VBD with_IN [NP erector_NN sets_NNS ] and_CC had_VBD [NP my_PRP$ first_JJ breadboard_NN ] at_IN [NP 12_CD ] ._.",
+        "<START>_<START> [NP the_DT best_JJS advice_NN ] [NP that_WDT ] was_VBD ever_RB given_VBN to_TO [NP me_PRP ] was_VBD :_: ``_`` [NP figure_NN ] out_IN [NP what_WP ] [NP you_PRP ] love_VBP to_TO do_VB [NP as_RB a_DT hobby_NN ] and_CC find_VB [NP a_DT way_NN ] to_TO make_VB that_IN [NP your_PRP$ job_NN ] ._.",
+        "<START>_<START> ``_``"
+    ],
+    "c1j55ut": [
+        "<START>_<START> [NP i_PRP ] help_VBP [NP influence_NN ] [NP the_DT search_NN results_NNS ] for_IN [NP several_JJ large_JJ companies_NNS ] ._."
+    ],
+    "c2p5bp6": [
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT newspaper_NN photojournalist_NN lucky_NN ] enough_RB to_TO be_VB working_VBG in_IN [NP one_CD ] of_IN [NP the_DT most_RBS beautiful_JJ places_NNS ] on_IN [NP earth_JJ (_NN california_NNP ] [NP 's_POS central_NNP coast_NNP )_NNP ] ._.",
+        "<START>_<START> [NP everyday_NNP ] [NP i_PRP ] go_VBP out_RP and_CC meet_VB [NP interesting_JJ people_NNS ] ,_, cover_RB fascinating_VBG [NP events_NNS ] and_CC otherwise_VB get_NN [NP the_DT ``_`` inside_NN scoop_NN ] ''_'' of_IN [NP anything_NN and_CC everything_NN ] under_IN [NP the_DT sun_NN ] ._.",
+        "<START>_<START> [NP the_DT best_JJS part_NN ] is_VBZ that_IN [NP it_PRP ] 's_VBZ [NP taught_JJ me_NN ] to_TO appreciate_VB [NP the_DT little_JJ things_NNS ] ;_: [NP revel_NN ] in_IN [NP living_NN ] [NP a_DT spartan_NN life_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] certainly_RB do_VBP n't_RB make_VB [NP much_JJ but_CC residing_VBG and_CC working_VBG ] in_IN [NP one_CD ] of_IN [NP the_DT most_RBS affluent_JJ communities_NNS ] has_VBZ really_RB driven_VBN home_NN [NP the_DT old_JJ adage_NN ] ``_`` [NP money_NN ] does_VBZ n't_RB buy_VB [NP you_PRP ] [NP happiness_NN ] ._.",
+        "<START>_<START> ``_``"
+    ],
+    "c2p58ah": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP an_DT engineer_NN ] at_IN [NP a_DT major_JJ microprocessor_NN company_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] love_VBP [NP it_PRP ] ._."
+    ],
+    "c2p681o": [
+        "<START>_<START> [NP i_PRP ] enjoy_VBP [NP my_PRP$ job_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP part_NN time_NN ] so_RB [NP i_PRP ] have_VBP to_TO do_VB [NP stuff_NN ] [NP i_PRP ] do_VBP n't_RB enjoy_VB to_TO make_VB [NP ends_NNS ] meet_VB ._.",
+        "<START>_<START> [NP i_PRP ] 'm_VBP [NP a_DT voice_NN acter_NN ] and_CC [NP it_PRP ] 's_VBZ enjoyable_JJ because_IN [NP i_PRP ] get_VBP to_TO say_VB [NP silly_RB things_NNS ] in_IN [NP silly_RB ways_NNS ] [NP that_WDT ] make_VBP [NP something_NN awesome_NN ]"
+    ],
+    "c63qcc0": [
+        "<START>_<START> [NP i_PRP ] am_VBP [NP a_DT computer_NN systems_NNS administrator_NN ] and_CC [NP i_PRP ] really_RB do_VBP love_RB [NP my_PRP$ job_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP to_TO [NP research_NN ] and_CC hopefully_RB play_VB with_IN [NP some_DT new_JJ toys_NNS ] [NP every_DT couple_NN ] of_IN [NP months_NNS ] ,_, and_CC [NP i_PRP ] get_VBP paid_VBN to_TO do_VB [NP it_PRP ] ._.",
+        "<START>_<START> [NP my_PRP$ boss_NN ] allows_VBZ [NP us_PRP ] [NP the_DT ability_NN ] to_TO telecomute_VB ,_, if_IN [NP we_PRP ] have_VBP [NP something_NN ] going_VBG on_IN at_IN [NP home_NN ] ,_, as_IN long_RB as_IN [NP we_PRP ] are_VBP responsive_JJ in_IN [NP emergency_NN situations_NNS ] [NP it_PRP ] 's_VBZ mostly_RB [NP stress_JJ free_JJ once_NN ] [NP you_PRP ] realize_VBP [NP you_PRP ] ca_MD n't_RB please_VB [NP everybody_NN ] ._."
+    ],
+    "c2p681b": [
+        "<START>_<START> [NP i_PRP ] work_VBP for_IN [NP a_DT nhl_NNP hockey_NN team_NN ] ._.",
+        "<START>_<START> [NP it_PRP ] 's_VBZ [NP a_DT college_NN level_NN job_NN ] [NP that_WDT ] [NP i_PRP ] will_MD have_VB to_TO leave_VB eventually_RB ,_, but_CC [NP i_PRP ] know_VBP [NP it_PRP ] is_VBZ going_VBG to_TO be_VB [NP one_CD ] of_IN [NP the_DT most_RBS fun_JJ jobs_NNS ] [NP i_PRP ] will_MD ever_RB have_VB ._.",
+        "<START>_<START> [NP i_PRP ] interact_VBP with_IN [NP fans_NNS ] ,_, get_VBP [NP my_PRP$ hands_NNS dirty_NN ] with_IN [NP event_NN set_NN ] up_IN ,_, teach_VBP [NP kids_NNS ] how_WRB to_TO play_VB [NP hockey_NN ] ,_, and_CC get_VB [NP ton_NN ] 's_POS of_IN [NP perks_NNS ] for_IN just_RB being_VBG [NP a_DT part-timer_JJ ] ._.",
+        "<START>_<START> also_RB ,_, [NP my_PRP$ co-workers_NNS ] are_VBP great_JJ and_CC [NP we_PRP ] get_VBP to_TO talk_VB [NP hockey_NN and_CC life_NN ] [NP all_DT day_NN ] ._."
+    ],
+    "c1j55ux": [
+        "<START>_<START> [NP software_NN engineer_NNP ] ,_, [NP programming_NN ] ,_, [NP managing_VBG projects_NNS ] and_CC [NP tasks_NNS ] for_IN [NP developers_NNS and_CC testing_NN ,_, design_NN collaboration_NN ] ,_, [NP etc_NN ] ..._:"
+    ],
+    "cckhp0x": [
+        "<START>_<START> [NP automation_NN engineer_NN ] :_: [NP buy_NNP more_JJR shit_NN ]"
+    ],
+    "c1j55ug": [
+        "<START>_<START> [NP well-well_JJ look_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] already_RB told_VBD [NP you_PRP ] :_: [NP i_PRP ] deal_VBP with_IN [NP the_DT god_NN damn_NN customers_NNS ] [NP so_RB the_DT engineers_NNS ] do_VBP n't_RB have_VB to_TO ._.",
+        "<START>_<START> [NP i_PRP ] have_VBP [NP people_NNS skills_NNS ] ;_: [NP i_PRP ] am_VBP good_JJ at_IN dealing_VBG with_IN [NP people_NNS ] ._.",
+        "<START>_<START> [NP ca_NNP ] n't_RB [NP you_PRP ] understand_VBP that_IN ?_.",
+        "<START>_<START> [NP what_WP ] [NP the_DT hell_NN ] is_VBZ wrong_JJ with_IN [NP you_PRP people_NNS ] ?_."
+    ],
+    "c2p3k8c": [
+        "<START>_<START> [NP i_PRP ] read_VBP through_IN most_JJS of_IN [NP the_DT responses_NNS ] and_CC [NP no_DT one_NN ] loves_VBZ [NP their_PRP$ job_NN ] working_VBG in_IN [NP the_DT military_JJ ] ?_."
+    ],
+    "c1j4hjt": [
+        "<START>_<START> [NP creative_JJ director_NNP /_NNP designer_NNP ] for_IN [NP a_DT digital_JJ agency_NN ] and_CC [NP film_NNP director_NNP ] as_IN [NP a_DT passion_NN ] ._."
+    ],
+    "ccknzrx": [
+        "<START>_<START> [NP i_PRP ] work_VBP at_IN [NP a_DT corporately_RB owned_VBN barbershop_NN ] (_: not_RB [NP hair_NNP cuttery_NNP ] ,_, or_CC [NP any_DT ] of_IN [NP those_DT sad_JJ places_NNS ] )_: and_CC [NP some_DT ] of_IN [NP the_DT most_RBS frustrating_VBG things_NNS ] [NP i_PRP ] come_VBP [NP across_RP ] are_VBP :_: [NP 1_LS ] ._.",
+        "<START>_<START> [NP )_NN people_NNS ] yelling_VBG at_IN [NP me_PRP ] (_: [NP the_DT receptionist_NN ] )_: for_IN [NP having_NN ] to_TO wait_VB [NP 20+_CD minutes_NNS ] for_IN [NP a_DT haircut_NN ] when_WRB [NP they_PRP ] did_VBD n't_RB make_VB [NP an_DT appointment_NN or_CC call_NN ] ahead_RB ._.",
+        "<START>_<START> [NP i_PRP ] completely_RB understand_VBP that_IN [NP it_PRP ] 's_VBZ frustrating_VBG to_TO wait_VB ,_, [NP however_NNP ] ,_, [NP there_EX ] is_VBZ [NP nothing_NN ] [NP i_PRP ] can_MD do_VB to_TO anticipate_VB [NP your_PRP$ arrival_NN ] to_TO speed_VB up_RP [NP the_DT hair_NN cutting_VBG process_NN ] of_IN [NP others_NNS ] ._.",
+        "<START>_<START> 2_LS ._.",
+        "<START>_<START> [NP )_NN ] if_IN [NP we_PRP ] 're_VBP closed_VBN ,_, [NP we_NNP ] 're_VBP closed_VBN ._.",
+        "<START>_<START> on_IN [NP several_JJ occasions_NNS ] [NP i_PRP ] 've_VBP left_VBN [NP the_DT door_NN ] of_IN [NP my_PRP$ shop_NN open_JJ ] in_IN order_NN to_TO let_VB [NP staff_NN ] and_CC straggling_VBG [NP customers_NNS ] out_IN ,_, but_CC have_VBP had_VBN to_TO turn_VB [NP several_JJ customers_NNS ] away_RB [NP who_WP ] have_VBP come_VBN in_IN after_IN [NP we_PRP ] close_VBP [NP who_WP ] just_RB want_VBP to_TO ``_`` be_VB squeezed_VBN in_IN ._.",
+        "<START>_<START> ``_`` [NP i_PRP ] understand_VBP [NP you_PRP ] need_VBP [NP your_PRP$ hair_NN ] cut_VBD ,_, but_CC [NP we_PRP ] 're_VBP still_RB [NP human_JJ beings_NNS ] [NP who_WP ] would_MD like_VB to_TO get_VB [NP home_NN ] to_TO [NP our_PRP$ boyfriends_NNS ] ,_, [NP cats_NNS ] ,_, [NP wives_NNS ] ,_, ect_VBP ._.",
+        "<START>_<START> [NP plus_NNP ] ,_, [NP we_PRP ] 're_VBP [NP open_JJ 7_CD days_NNS ] [NP a_DT weeks_NNS ] !_.",
+        "<START>_<START> maybe_RB [NP it_PRP ] 's_VBZ [NP several_JJ years_NNS ] of_IN [NP retail_JJ ] that_IN [NP 's_POS ] made_VBN [NP me_PRP ] [NP salty_NN ] ,_, but_CC [NP come_NNP on_NNP ] ,_, [NP people_NNS ] !_."
+    ],
+    "c2p7o16": [
+        "<START>_<START> [NP i_PRP ] recently_RB became_VBD [NP a_DT manager_NN ] at_IN [NP jimmy_NNP john_NNP ] [NP 's_POS ] and_CC [NP i_PRP ] actually_RB enjoy_VBP [NP it_PRP ] ._.",
+        "<START>_<START> [NP i_PRP ] come_VBP in_IN [NP early_JJ about_IN 4_CD days_NNS ] [NP a_DT week_NN ] to_TO help_VB [NP open_JJ the_DT store_NN ] and_CC prep_VB [NP everything_NN ] [NP that_WDT ] [NP you_PRP ] eat_VBP ._.",
+        "<START>_<START> since_IN [NP i_PRP ] 've_VBP started_VBN doing_VBG [NP this_DT i_PRP ] actually_RB take_VB [NP a_DT lot_NN ] more_RBR pride_JJ in_IN [NP the_DT food_NN ] that_IN [NP we_PRP ] serve_VBP at_IN [NP the_DT store_NN ] because_IN [NP i_PRP ] personally_RB sliced_VBD [NP /_CD prepped_VBN /_-NONE- ] or_CC had_VBD [NP some_DT hand_NN ] in_IN [NP the_DT making_VBG ] of_IN [NP your_PRP$ sandwich_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] think_VBP [NP the_DT part_NN ] that_IN [NP really_RB ] makes_VBZ [NP my_PRP$ job_NN enjoyable_JJ ] is_VBZ [NP the_DT people_NNS ] [NP i_PRP ] work_VBP with_IN for_IN [NP the_DT most_JJS part_NN ] ._.",
+        "<START>_<START> [NP people_NNS ] warned_VBD [NP me_PRP ] that_IN when_WRB [NP i_PRP ] started_VBD working_VBG for_IN [NP jj_NNP ] [NP 's_POS it_PRP ] would_MD become_VB [NP my_PRP$ life_NN ] ._.",
+        "<START>_<START> in_IN [NP a_DT way_NN ] [NP it_PRP ] has_VBZ ,_, but_CC [NP i_PRP ] 've_VBP made_VBN [NP a_DT lot_NN ] of_IN [NP friends_NNS ] through_IN [NP working_VBG ] there_EX ._.",
+        "<START>_<START> though_IN ,_, [NP i_PRP ] never_RB get_VB tired_VBN of_IN [NP people_NNS ] actually_RB being_VBG surprised_VBN with_IN how_WRB fast_JJ [NP we_PRP ] get_VBP [NP subs_NNS ] made_VBN [NP inshop_NN ] ._.",
+        "<START>_<START> ``_`` [NP wow_NNP ] ..._: [NP that_IN ] really_RB was_VBD fast_RB :_: [NP o_NNP ] ''_'' [NP edit_NNP ] :_: [NP i_PRP ] really_RB do_VBP n't_RB make_VB that_IN [NP much_RB money_NN ] ._.",
+        "<START>_<START> [NP i_PRP ] get_VBP paid_VBN [NP a_DT little_RB bit_NN ] more_JJR than_IN [NP minimum_JJ wage_NN ] (_: (_: except_IN on_IN [NP my_PRP$ manager_NN shift_NN ] ,_, [NP i_PRP ] 'm_VBP new_JJ so_RB [NP i_PRP ] only_RB have_VBP [NP one_CD ] )_: [NP )_CD ] ,_, and_CC [NP yeah_NN ] ,_, sometimes_RB [NP i_PRP ] live_VBP from_IN [NP paycheck_NN ] to_TO [NP paycheck_VB ] ,_, but_CC [NP i_PRP ] still_RB really_RB do_VBP like_IN [NP my_PRP$ job_NN ] ._."
+    ],
+    "cckj3u8": [
+        "<START>_<START> [NP -lrb-_-LRB- ] deleted_VBN -llb-_-NONE-"
+    ],
+    "c1j4hjc": [
+        "<START>_<START> [NP solitaire_NN ] ._."
+    ]
+}
