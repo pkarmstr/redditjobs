@@ -1,0 +1,10 @@
+artist
+artisan
+animator
+decorator
+dancer
+choreographer
+director
+playwright
+author
+writer

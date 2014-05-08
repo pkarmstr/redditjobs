@@ -1,0 +1,144 @@
+Iteration: 1
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 16
+number of total patterns: 184
+
+
+Iteration: 2
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 20
+number of total patterns: 751
+
+
+Iteration: 3
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 23
+number of total patterns: 1755
+
+
+Iteration: 4
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 24
+number of total patterns: 3865
+
+
+Iteration: 5
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 27
+number of total patterns: 3916
+
+
+Iteration: 6
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 28
+number of total patterns: 4295
+
+
+Iteration: 7
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 30
+number of total patterns: 4488
+
+
+Iteration: 8
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 30
+number of total patterns: 4775
+
+
+Iteration: 9
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 32
+number of total patterns: 4775
+
+
+Iteration: 10
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 35
+number of total patterns: 4981
+
+
+Iteration: 11
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 36
+number of total patterns: 5114
+
+
+Iteration: 12
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 37
+number of total patterns: 5394
+
+
+Iteration: 13
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 39
+number of total patterns: 5395
+
+
+Iteration: 14
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 40
+number of total patterns: 5413
+
+
+Iteration: 15
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 42
+number of total patterns: 5416
+
+
+Iteration: 16
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 44
+number of total patterns: 5444
+
+
+Iteration: 17
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 47
+number of total patterns: 5537
+
+
+Iteration: 18
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 50
+number of total patterns: 5617
+
+
+Iteration: 19
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 52
+number of total patterns: 5637
+
+
+Iteration: 20
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 53
+number of total patterns: 5792
+
+
+Iteration: 21
+running mutual bootstrapping... [DONE]
+pattern score dropped too low: 0.679270
+saved everything

@@ -1,0 +1,71 @@
+Iteration: 1
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 18
+number of total patterns: 2611
+
+
+Iteration: 2
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 20
+number of total patterns: 14523
+
+
+Iteration: 3
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 23
+number of total patterns: 21974
+
+
+Iteration: 4
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 27
+number of total patterns: 47019
+
+
+Iteration: 5
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 27
+number of total patterns: 55250
+
+
+Iteration: 6
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 28
+number of total patterns: 55250
+
+
+Iteration: 7
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 28
+number of total patterns: 56310
+
+
+Iteration: 8
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 31
+number of total patterns: 56310
+
+
+Iteration: 9
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 33
+number of total patterns: 58551
+
+
+Iteration: 10
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 34
+number of total patterns: 60087
+
+
+saved everything

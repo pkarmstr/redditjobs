@@ -1,0 +1,12 @@
+<START> <x> .
+<x> .
+i 'm <x>
+i was <x>
+<START> <x> :
+i am <x>
+am <x> .
+<START> <x> here
+<START> <x> for
+<x> for a
+<START> <x> ,
+<x> , i

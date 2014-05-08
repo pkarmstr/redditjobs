@@ -1,0 +1,11 @@
+Iteration: 1
+running mutual bootstrapping... [DONE]
+running meta bootstrapping... [DONE]
+number of seed terms: 8
+number of total patterns: 36
+
+
+Iteration: 2
+running mutual bootstrapping... [DONE]
+pattern score dropped too low: 0.666667
+saved everything
